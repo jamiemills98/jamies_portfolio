@@ -1,0 +1,98 @@
+* {
+	margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background: linear-gradient(179deg, rgb(245, 206, 134), #f5c586 , #eeac77, #ef9b88, #ef8d8e, #e58293, #eb8db1, #df94ad, #b07da3, #a47db0, #9872c5, #8a72c6, #7273c6, #5758aa);
+    background-size: 2400% 2400%;
+    -webkit-animation: AnimationName 60s ease infinite;
+    -moz-animation: AnimationName 60s ease infinite;
+    animation: AnimationName 60s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:49% 0%}
+        50%{background-position:52% 100%}
+        100%{background-position:49% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:49% 0%}
+        50%{background-position:52% 100%}
+        100%{background-position:49% 0%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:49% 0%}
+        50%{background-position:52% 100%}
+        100%{background-position:49% 0%}
+    }
+}
+header {
+    margin: 0px;
+    nav {
+        height: 800px;
+        max-width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        background-color: black;
+        opacity: 0.9;
+        position: absolute;
+        // z-index: -1;
+    }
+
+ span {
+   padding-top: 60px;
+   text-align: center;
+   /* height: 50px; */
+   max-width: 100px;
+   font-size: 20px;
+   color: white;
+   // opacity: 1;
+}
+    #header_socials {
+        position: relative;
+        left: 290px;
+        top: 10px;
+    }
+    #header_socials img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.main_banner {
+    // @include font-settings();
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    box-shadow: 3px 3px 5px rgb(5, 5, 5), -3px 0px 5px black;
+
+    p {
+        font-size: 40px;
+        text-align: center;
+        padding: 70px 50px;
+    }
+    
+}
+
+#connect {
+    // @include font-settings ($primary-font-color, $secondary-font-family);
+    font-size: 10px;
+    position: relative;
+    flex-direction: row;
+    left: 180px;
+    top: 100px;
+    width: 200px;
+    #socials {
+        // margin-top: 300px;
+        img {
+            width: 20px;
+            height: 20px;
+            justify-content: space-between;
+            padding: 8px;
+        }
+    }
+}
