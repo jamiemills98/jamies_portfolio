@@ -86,8 +86,8 @@ header #header_socials img {
   position: relative;
   left: 80px;
   top: 40px;
-  -webkit-box-shadow: 3px 3px 5px #050505, -3px 0px 5px black;
-          box-shadow: 3px 3px 5px #050505, -3px 0px 5px black;
+  -webkit-box-shadow: 1px 1px 5px #050505, -1px 0px 5px black;
+          box-shadow: 1px 1px 5px #050505, -1px 0px 5px black;
 }
 
 .main_banner p {
@@ -107,6 +107,9 @@ header #header_socials img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   left: 135px;
   top: 100px;
   width: 280px;
@@ -135,7 +138,7 @@ header #header_socials img {
 footer {
   position: relative;
   left: 70px;
-  top: 505px;
+  top: 430px;
   font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
