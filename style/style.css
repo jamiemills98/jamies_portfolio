@@ -101,7 +101,7 @@ header #header_socials img {
 #connect {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   position: relative;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -109,7 +109,7 @@ header #header_socials img {
           flex-direction: row;
   left: 150px;
   top: 100px;
-  width: 200px;
+  width: 280px;
 }
 
 #connect h2 {
@@ -123,8 +123,8 @@ header #header_socials img {
 }
 
 #connect img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
