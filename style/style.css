@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat");
 * {
   margin: 0px;
   padding: 0px;
@@ -41,7 +42,7 @@ header {
 
 header nav {
   height: 800px;
-  max-width: 100px;
+  max-width: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,12 +60,13 @@ header nav {
 }
 
 header span {
-  padding-top: 60px;
+  color: white;
+  font-family: "Lora", serif;
+  padding-top: 75px;
   text-align: center;
   /* height: 50px; */
-  max-width: 100px;
-  font-size: 20px;
-  color: white;
+  max-width: 80px;
+  font-size: 15px;
 }
 
 header #header_socials {
@@ -82,36 +84,57 @@ header #header_socials img {
   width: 280px;
   height: 150px;
   position: relative;
-  left: 90px;
+  left: 80px;
   top: 40px;
   -webkit-box-shadow: 3px 3px 5px #050505, -3px 0px 5px black;
           box-shadow: 3px 3px 5px #050505, -3px 0px 5px black;
 }
 
 .main_banner p {
+  color: black;
+  font-family: "Lora", serif;
   font-size: 40px;
   text-align: center;
   padding: 50px 30px;
 }
 
 #connect {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
   font-size: 10px;
   position: relative;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  left: 180px;
+  left: 150px;
   top: 100px;
   width: 200px;
 }
 
-#connect #socials img {
+#connect h2 {
+  color: black;
+  font-family: "Lora", serif;
+}
+
+#connect p {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
+}
+
+#connect img {
   width: 20px;
   height: 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 8px;
+}
+
+footer {
+  position: relative;
+  left: 70px;
+  top: 505px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
