@@ -40,7 +40,7 @@ header {
         flex-direction: column;
         align-content: flex-start;
         background-color: black;
-        opacity: 0.9;
+        opacity: 0.86;
         position: absolute;
         // z-index: -1;
     }
@@ -88,11 +88,12 @@ header {
     font-size: 12px;
     position: relative;
     flex-direction: row;
-    left: 150px;
+    left: 135px;
     top: 100px;
     width: 280px;
     h2 {
         @include font-settings ();
+        padding: 10px;
     }
     p {
         @include font-settings ($primary-font-color, $secondary-font-family);
@@ -101,7 +102,7 @@ header {
         width: 30px;
         height: 30px;
         justify-content: space-between;
-        padding: 8px;
+        padding: 12px;
     }
 }
 

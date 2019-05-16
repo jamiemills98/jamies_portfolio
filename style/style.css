@@ -55,7 +55,7 @@ header nav {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.86;
   position: absolute;
 }
 
@@ -107,7 +107,7 @@ header #header_socials img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  left: 150px;
+  left: 135px;
   top: 100px;
   width: 280px;
 }
@@ -115,6 +115,7 @@ header #header_socials img {
 #connect h2 {
   color: black;
   font-family: "Lora", serif;
+  padding: 10px;
 }
 
 #connect p {
@@ -128,7 +129,7 @@ header #header_socials img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 8px;
+  padding: 12px;
 }
 
 footer {
