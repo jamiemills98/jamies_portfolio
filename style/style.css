@@ -117,7 +117,7 @@ body {
   height: 150px;
   position: absolute;
   left: 80px;
-  top: 60px;
+  top: 50px;
   border: 1px solid #1a1a1a;
   -webkit-box-shadow: 3px 3px 3px #181818;
           box-shadow: 3px 3px 3px #181818;
@@ -134,7 +134,7 @@ body {
 
 #quote {
   position: absolute;
-  top: 270px;
+  top: 260px;
   left: 102px;
   font-size: 15px;
   width: 200px;
@@ -214,7 +214,7 @@ footer {
   position: relative;
   width: 250px;
   left: 90px;
-  top: 360px;
+  top: 350px;
 }
 
 .about_me p {
