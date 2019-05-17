@@ -48,6 +48,14 @@ body {
     
 }
 
+#quote {
+    position: relative;
+    top: 300px;
+    left: 100px;
+    font-size: 15px;
+    width: 200px;
+}
+
 #connect {
     @include font-settings ($primary-font-color, $secondary-font-family);
     font-size: 12px;
@@ -55,7 +63,7 @@ body {
     flex-direction: row;
     justify-content: center;
     left: 135px;
-    top: 250px;
+    top: 350px;
     width: 280px;
 
     h2 {

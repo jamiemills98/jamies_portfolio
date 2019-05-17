@@ -132,6 +132,14 @@ body {
   padding: 50px 30px;
 }
 
+#quote {
+  position: relative;
+  top: 300px;
+  left: 100px;
+  font-size: 15px;
+  width: 200px;
+}
+
 #connect {
   color: black;
   font-family: "Monstserrat", sans-serif;
@@ -145,7 +153,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   left: 135px;
-  top: 250px;
+  top: 350px;
   width: 280px;
 }
 
