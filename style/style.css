@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Montserrat");
-* {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-}
-
 body {
   background: linear-gradient(179deg, #f5ce86, #f5c586, #eeac77, #ef9b88, #ef8d8e, #e58293, #eb8db1, #df94ad, #b07da3, #a47db0, #9872c5, #8a72c6, #7273c6, #5758aa);
   background-size: 2400% 2400%;
@@ -36,46 +30,82 @@ body {
   }
 }
 
-header {
+* {
   margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+div.border a:before, div.border a:after {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 2px;
+  content: '';
+  background: transparent;
+  background: linear-gradient(179deg, #f5ce86, #f5c586, #eeac77, #ef9b88, #ef8d8e, #e58293, #eb8db1, #df94ad, #b07da3, #a47db0, #9872c5, #8a72c6, #7273c6, #5758aa);
+  background-size: 2400% 2400%;
+  -webkit-animation: AnimationName 60s ease infinite;
+  animation: AnimationName 60s ease infinite;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+div.border a:before {
+  left: 0px;
+  top: 0px;
+}
+
+div.border a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+div.border a:hover:before, div.border a:hover:after {
+  opacity: 1;
+  height: 2px;
+  width: 100%;
 }
 
 header nav {
-  height: 800px;
-  max-width: 80px;
+  position: absolute;
+}
+
+header .border {
+  position: fixed;
+  height: 600px;
+  max-width: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
   background-color: black;
   opacity: 0.86;
-  position: absolute;
 }
 
-header span {
+header a {
   color: white;
   font-family: "Lora", serif;
-  padding-top: 75px;
-  text-align: center;
-  /* height: 50px; */
-  max-width: 80px;
-  font-size: 15px;
+  color: #FFF;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 14px;
+  margin: 20px 6px;
+  padding: 10px 6px;
+  position: relative;
+  cursor: pointer;
 }
 
-header #header_socials {
+#header_socials {
   position: relative;
   left: 260px;
   top: 10px;
 }
 
-header #header_socials img {
+#header_socials img {
   width: 30px;
   height: 30px;
 }
