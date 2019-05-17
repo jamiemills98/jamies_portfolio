@@ -220,11 +220,6 @@ footer {
 .about_me p {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   font-size: 12px;
   top: -100px;
   padding: 15px 0px;
@@ -241,18 +236,12 @@ footer {
 #top img {
   width: 140px;
   height: 140px;
-  justify-self: flex-end;
 }
 
 #top h2 {
   color: black;
   font-family: "Lora", serif;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   font-size: 20px;
   top: -100px;
   left: 150px;
@@ -262,8 +251,6 @@ footer {
   position: relative;
   top: 395px;
   font-size: 10px;
-  width: 200px;
   left: 90px;
-  height: 2px;
 }
 /*# sourceMappingURL=style.css.map */

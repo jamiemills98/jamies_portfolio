@@ -23,8 +23,6 @@
     top: 350px;
     p {
         @include font-settings($primary-font-color, $secondary-font-family);
-        display: flex;
-        flex-wrap: wrap;
         font-size: 12px;
         top: -100px;
         padding: 15px 0px;
@@ -40,13 +38,10 @@
     img {
         width: 140px;
         height: 140px;
-        justify-self: flex-end;
     }
     h2 {
         @include font-settings();
         position: relative;
-        display: flex;
-        flex-wrap: wrap;
         font-size: 20px;
         top: -100px;
         left: 150px;
@@ -57,7 +52,5 @@
     position: relative;
     top: 395px;
     font-size: 10px;
-    width: 200px;
     left: 90px;
-    height: 2px;
 }
