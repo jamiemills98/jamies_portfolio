@@ -1,5 +1,4 @@
-div.border a:before, div.border a:after
-{
+div.border a:before, div.border a:after {
     position: absolute;
     opacity: 0.5;
     height: 100%;
@@ -14,20 +13,17 @@ div.border a:before, div.border a:after
     transition: all 0.3s;
 }
 
-div.border a:before
-{
+div.border a:before {
     left: 0px;
     top: 0px;
 }
 
-div.border a:after
-{
+div.border a:after {
     right: 0px;
     bottom: 0px;
 }
 
-div.border a:hover:before, div.border a:hover:after
-{
+div.border a:hover:before, div.border a:hover:after {
     opacity: 1;
     height: 2px;
     width: 100%;
