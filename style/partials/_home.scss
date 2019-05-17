@@ -1,3 +1,10 @@
+* {
+	margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
 body {
     background: linear-gradient(179deg, rgb(245, 206, 134), #f5c586 , #eeac77, #ef9b88, #ef8d8e, #e58293, #eb8db1, #df94ad, #b07da3, #a47db0, #9872c5, #8a72c6, #7273c6, #5758aa);
     background-size: 2400% 2400%;
@@ -20,4 +27,58 @@ body {
         50%{background-position:52% 100%}
         100%{background-position:49% 0%}
     }
+}
+.main_banner {
+    // @include font-settings();
+    width: 280px;
+    height: 150px;
+    position: relative;
+    left: 80px;
+    top: 40px;
+    box-shadow: 1px 1px 5px rgb(5, 5, 5), -1px 0px 5px black;
+
+    p {
+        @include font-settings();
+        font-size: 40px;
+        text-align: center;
+        padding: 50px 30px;
+    }
+    
+}
+
+#connect {
+    @include font-settings ($primary-font-color, $secondary-font-family);
+    font-size: 12px;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    left: 135px;
+    top: 100px;
+    width: 280px;
+
+    h2 {
+        @include font-settings ();
+        padding: 10px;
+    }
+    p {
+        @include font-settings ($primary-font-color, $secondary-font-family);
+    }
+    img {
+        width: 30px;
+        height: 30px;
+        justify-content: space-between;
+        padding: 12px;
+    }
+}
+
+footer {
+    position: relative;
+    left: 70px;
+    top: 430px;
+    font-size: 10px;
+}
+
+#about {
+    
+    background-color: white;
 }

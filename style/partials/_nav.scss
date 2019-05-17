@@ -1,0 +1,74 @@
+div.border a:before, div.border a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: transparent;
+    background: linear-gradient(179deg, rgb(245, 206, 134), #f5c586 , #eeac77, #ef9b88, #ef8d8e, #e58293, #eb8db1, #df94ad, #b07da3, #a47db0, #9872c5, #8a72c6, #7273c6, #5758aa);
+    background-size: 2400% 2400%;
+    -webkit-animation: AnimationName 60s ease infinite;
+    -moz-animation: AnimationName 60s ease infinite;
+    animation: AnimationName 60s ease infinite;
+    transition: all 0.3s;
+}
+
+div.border a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.border a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.border a:hover:before, div.border a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+
+header {
+    nav {
+        position: absolute;
+        // z-index: 1;
+        // display: block;
+    }
+    .border {
+        position: fixed;
+        height: 600px;
+        max-width: 72px;
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        // align-content: flex-start;
+        background-color: black;
+        opacity: 0.86;
+    }
+    a {
+        @include font-settings($secondary-font-color, $primary-font-family);
+        color: #FFF;
+        transition: all 0.3s;
+        font-size: 14px;
+        margin: 25px 6px;
+        padding: 6px 6px;
+        position: relative;
+        cursor: pointer;
+    }
+}
+
+    #header_socials {
+        position: relative;
+        left: 260px;
+        top: 10px;
+    }
+    #header_socials img {
+        width: 30px;
+        height: 30px;
+    }
