@@ -179,9 +179,9 @@ footer {
 }
 
 .about_banner {
-  width: 280px;
+  width: 260px;
   height: 100px;
-  position: relative;
+  position: absolute;
   left: 80px;
   top: 50px;
   border: 1px solid #1a1a1a;
@@ -201,8 +201,8 @@ footer {
 .about_me {
   position: relative;
   width: 250px;
-  left: 100px;
-  top: 110px;
+  left: 90px;
+  top: 360px;
 }
 
 .about_me p {
@@ -222,6 +222,8 @@ footer {
 
 #top {
   height: 160px;
+  position: absolute;
+  top: -160px;
 }
 
 #top img {
@@ -246,7 +248,7 @@ footer {
 
 #about_foot {
   position: relative;
-  top: 130px;
+  top: 297px;
   font-size: 10px;
   width: 200px;
   right: 70px;

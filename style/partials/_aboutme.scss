@@ -1,7 +1,7 @@
 .about_banner {
-    width: 280px;
+    width: 260px;
     height: 100px;
-    position: relative;
+    position: absolute;
     left: 80px;
     top: 50px;
     border: 1px solid rgb(26, 26, 26);
@@ -19,8 +19,8 @@
 .about_me {
     position: relative;
     width: 250px;
-    left: 100px;
-    top: 110px;
+    left: 90px;
+    top: 360px;
     p {
         @include font-settings($primary-font-color, $secondary-font-family);
         display: flex;
@@ -35,6 +35,8 @@
 
 #top {
     height: 160px;
+    position: absolute;
+    top: -160px;
     img {
         width: 140px;
         height: 140px;
@@ -53,7 +55,7 @@
 
 #about_foot {
     position: relative;
-    top: 130px;
+    top: 297px;
     font-size: 10px;
     width: 200px;
     right: 70px;
