@@ -4,6 +4,22 @@
     width: 250px;
     left: 90px;
     top: 350px;
+    #top {
+        height: 160px;
+        position: absolute;
+        top: -160px;
+        img {
+            width: 140px;
+            height: 140px;
+            }
+        h2 {
+            @include font-settings();
+            position: relative;
+            font-size: 20px;
+            top: -100px;
+            left: 150px;
+        }
+    }
     p {
         @include font-settings($primary-font-color, $secondary-font-family);
         font-size: 12px;
@@ -11,22 +27,5 @@
         padding: 15px 0px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
-    }
-}
-
-#top {
-    height: 160px;
-    position: absolute;
-    top: -160px;
-    img {
-        width: 140px;
-        height: 140px;
-    }
-    h2 {
-        @include font-settings();
-        position: relative;
-        font-size: 20px;
-        top: -100px;
-        left: 150px;
     }
 }

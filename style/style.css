@@ -140,6 +140,26 @@ footer {
   top: 350px;
 }
 
+.about_me #top {
+  height: 160px;
+  position: absolute;
+  top: -160px;
+}
+
+.about_me #top img {
+  width: 140px;
+  height: 140px;
+}
+
+.about_me #top h2 {
+  color: black;
+  font-family: "Lora", serif;
+  position: relative;
+  font-size: 20px;
+  top: -100px;
+  left: 150px;
+}
+
 .about_me p {
   color: black;
   font-family: "Monstserrat", sans-serif;
@@ -148,26 +168,6 @@ footer {
   padding: 15px 0px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
-
-#top {
-  height: 160px;
-  position: absolute;
-  top: -160px;
-}
-
-#top img {
-  width: 140px;
-  height: 140px;
-}
-
-#top h2 {
-  color: black;
-  font-family: "Lora", serif;
-  position: relative;
-  font-size: 20px;
-  top: -100px;
-  left: 150px;
 }
 
 * {
