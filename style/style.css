@@ -196,6 +196,32 @@ footer {
   padding-top: 30px;
 }
 
+.about_me {
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.about_me p {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
+}
+
+#top img {
+  width: 80px;
+  height: 80px;
+  justify-self: flex-end;
+}
+
+#top h2 {
+  color: black;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  top: -100px;
+}
+
 #about_connect {
   position: relative;
   -webkit-box-orient: horizontal;
