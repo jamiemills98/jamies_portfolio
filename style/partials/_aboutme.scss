@@ -22,7 +22,7 @@
     left: 100px;
     top: 100px;
     p {
-        @include font-settings($primary-font-color, $secondary-font-family)
+        @include font-settings($primary-font-color, $secondary-font-family);
         display: flex;
         flex-wrap: wrap;
         font-size: 12px;
