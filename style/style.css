@@ -198,6 +198,7 @@ footer {
 
 .about_me {
   position: relative;
+  width: 250px;
   left: 100px;
   top: 100px;
 }
@@ -205,21 +206,33 @@ footer {
 .about_me p {
   color: black;
   font-family: "Monstserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 10px;
+  top: -100px;
 }
 
 #top img {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   justify-self: flex-end;
 }
 
 #top h2 {
   color: black;
   font-family: "Lora", serif;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: 20px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   top: -100px;
+  left: 150px;
 }
 
 #about_connect {

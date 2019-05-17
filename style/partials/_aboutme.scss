@@ -18,24 +18,32 @@
 
 .about_me {
     position: relative;
+    width: 250px;
     left: 100px;
     top: 100px;
     p {
         @include font-settings($primary-font-color, $secondary-font-family)
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        top: -100px;
     }
 }
 
 #top {
     img {
-        width: 80px;
-        height: 80px;
+        width: 140px;
+        height: 140px;
         justify-self: flex-end;
     }
     h2 {
         @include font-settings();
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
         font-size: 20px;
-        align-self: flex-start;
         top: -100px;
+        left: 150px;
     }
 }
 
