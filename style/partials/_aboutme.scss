@@ -4,17 +4,35 @@
     position: relative;
     left: 80px;
     top: 40px;
-    background-color: rgb(24, 23, 23);
-    box-shadow: 1px 1px 5px rgb(5, 5, 5), -1px 0px 5px black;
-
+    border: 1px solid rgb(26, 26, 26);
+    box-shadow: 3px 3px 3px rgb(24, 24, 24);
+    background-color: rgba(255, 255, 255, 0.178);
     p {
-        @include font-settings($secondary-font-color, $primary-font-family);
+        @include font-settings();
         font-size: 30px;
         text-align: center;
         padding-top: 30px
     }
     
 }
+
+.about_me {
+    position: relative;
+    img {
+        max-width: 40px;
+        max-height: 40px;
+        
+    }
+    h2 {
+        @include font-settings();
+        font-size: 20px;
+    }
+
+    p {
+        @include font-settings($primary-font-color, $secondary-font-family)
+    }
+}
+
 
 #about_connect {
     position: relative;
