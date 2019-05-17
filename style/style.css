@@ -211,8 +211,15 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 10px;
+  font-size: 12px;
   top: -100px;
+  padding: 15px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#top {
+  height: 160px;
 }
 
 #top img {
@@ -245,7 +252,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   left: 155px;
-  top: 350px;
+  top: 180px;
   width: 280px;
 }
 
@@ -269,5 +276,10 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 3px;
+}
+
+footer {
+  position: relative;
+  left: -80px;
 }
 /*# sourceMappingURL=style.css.map */
