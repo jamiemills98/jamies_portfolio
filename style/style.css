@@ -36,7 +36,7 @@ header nav {
 
 header .border {
   position: fixed;
-  height: 600px;
+  height: 100%;
   max-width: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,11 +121,10 @@ body {
 }
 
 .main_banner p {
-  color: black;
-  font-family: "Lora", serif;
   font-size: 40px;
   text-align: center;
   padding: 50px 30px;
+  font-color: #f5c586;
 }
 
 #connect {
@@ -172,7 +171,58 @@ footer {
   font-size: 10px;
 }
 
-#about {
-  background-color: white;
+.about_banner {
+  width: 280px;
+  height: 100px;
+  position: relative;
+  left: 80px;
+  top: 40px;
+  background-color: #181717;
+  -webkit-box-shadow: 1px 1px 5px #050505, -1px 0px 5px black;
+          box-shadow: 1px 1px 5px #050505, -1px 0px 5px black;
+}
+
+.about_banner p {
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#about_connect {
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 155px;
+  top: 350px;
+  width: 280px;
+}
+
+#about_connect h2 {
+  color: black;
+  font-family: "Lora", serif;
+  font-size: 12px;
+  padding: 8px;
+}
+
+#about_connect p {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
+  font-size: 10px;
+}
+
+#about_connect img {
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3px;
 }
 /*# sourceMappingURL=style.css.map */

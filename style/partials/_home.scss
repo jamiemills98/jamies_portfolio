@@ -38,10 +38,11 @@ body {
     box-shadow: 1px 1px 5px rgb(5, 5, 5), -1px 0px 5px black;
 
     p {
-        @include font-settings();
+        // @include font-settings();
         font-size: 40px;
         text-align: center;
         padding: 50px 30px;
+        font-color: #f5c586;
     }
     
 }
@@ -76,9 +77,4 @@ footer {
     left: 70px;
     top: 430px;
     font-size: 10px;
-}
-
-#about {
-    
-    background-color: white;
 }

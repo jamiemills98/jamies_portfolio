@@ -37,17 +37,13 @@ div.border a:hover:before, div.border a:hover:after
 header {
     nav {
         position: absolute;
-        // z-index: 1;
-        // display: block;
     }
     .border {
         position: fixed;
-        height: 600px;
+        height: 100%;
         max-width: 72px;
         display: flex;
-        // flex-wrap: wrap;
         flex-direction: column;
-        // align-content: flex-start;
         background-color: black;
         opacity: 0.86;
     }
