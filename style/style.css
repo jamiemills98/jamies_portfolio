@@ -171,7 +171,8 @@ body {
 
 footer {
   position: relative;
-  top: 230px;
+  top: 300px;
+  right: 70px;
   font-size: 10px;
   margin: 100px 150px;
   width: 300px;
@@ -243,12 +244,12 @@ footer {
   left: 150px;
 }
 
-footer {
+#about_foot {
   position: relative;
   top: 130px;
   font-size: 10px;
   width: 200px;
-  right: 75px;
+  right: 70px;
   height: 2px;
 }
 /*# sourceMappingURL=style.css.map */
