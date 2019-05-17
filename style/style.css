@@ -117,7 +117,7 @@ body {
   height: 150px;
   position: absolute;
   left: 80px;
-  top: 40px;
+  top: 60px;
   border: 1px solid #1a1a1a;
   -webkit-box-shadow: 3px 3px 3px #181818;
           box-shadow: 3px 3px 3px #181818;
@@ -133,11 +133,14 @@ body {
 }
 
 #quote {
-  position: relative;
-  top: 300px;
-  left: 100px;
+  position: absolute;
+  top: 270px;
+  left: 102px;
   font-size: 15px;
   width: 200px;
+  padding: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #connect {
@@ -152,9 +155,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  left: 135px;
-  top: 350px;
-  width: 280px;
+  left: 116px;
+  top: 470px;
+  width: 190px;
+  border: 1px dashed black;
+  padding: 10px;
 }
 
 #connect h2 {
@@ -178,12 +183,11 @@ body {
 }
 
 footer {
-  position: relative;
-  top: 300px;
-  right: 70px;
+  position: absolute;
+  top: 630px;
+  right: 100px;
   font-size: 10px;
-  margin: 100px 150px;
-  width: 300px;
+  width: 200px;
 }
 
 .about_banner {
