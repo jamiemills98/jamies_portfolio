@@ -182,7 +182,7 @@ footer {
   height: 100px;
   position: relative;
   left: 80px;
-  top: 40px;
+  top: 50px;
   border: 1px solid #1a1a1a;
   -webkit-box-shadow: 3px 3px 3px #181818;
           box-shadow: 3px 3px 3px #181818;
@@ -201,7 +201,7 @@ footer {
   position: relative;
   width: 250px;
   left: 100px;
-  top: 100px;
+  top: 110px;
 }
 
 .about_me p {
@@ -243,44 +243,12 @@ footer {
   left: 150px;
 }
 
-#about_connect {
-  position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  left: 155px;
-  top: 180px;
-  width: 280px;
-}
-
-#about_connect h2 {
-  color: black;
-  font-family: "Lora", serif;
-  font-size: 12px;
-  padding: 8px;
-}
-
-#about_connect p {
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-  font-size: 10px;
-}
-
-#about_connect img {
-  width: 30px;
-  height: 30px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 3px;
-}
-
 footer {
   position: relative;
-  left: -80px;
+  top: 130px;
+  font-size: 10px;
+  width: 200px;
+  right: 75px;
+  height: 2px;
 }
 /*# sourceMappingURL=style.css.map */

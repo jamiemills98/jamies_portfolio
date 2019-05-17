@@ -3,7 +3,7 @@
     height: 100px;
     position: relative;
     left: 80px;
-    top: 40px;
+    top: 50px;
     border: 1px solid rgb(26, 26, 26);
     box-shadow: 3px 3px 3px rgb(24, 24, 24);
     background-color: rgba(255, 255, 255, 0.178);
@@ -20,7 +20,7 @@
     position: relative;
     width: 250px;
     left: 100px;
-    top: 100px;
+    top: 110px;
     p {
         @include font-settings($primary-font-color, $secondary-font-family);
         display: flex;
@@ -51,32 +51,11 @@
     }
 }
 
-#about_connect {
-    position: relative;
-    flex-direction: row;
-    justify-content: center;
-    left: 155px;
-    top: 180px;
-    width: 280px;
-
-    h2 {
-        @include font-settings ();
-        font-size: 12px;
-        padding: 8px;
-    }
-    p {
-        @include font-settings ($primary-font-color, $secondary-font-family);
-        font-size: 10px;
-    }
-    img {
-        width: 30px;
-        height: 30px;
-        justify-content: space-between;
-        padding: 3px;
-    }
-}
-
 footer {
     position: relative;
-   left: -80px;
+    top: 130px;
+    font-size: 10px;
+    width: 200px;
+    right: 75px;
+    height: 2px;
 }
