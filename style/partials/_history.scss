@@ -11,7 +11,30 @@
     left: 90px;
     p {
         min-width: 260px;
-        padding: 5px 1px;
-        border: 1px solid black;
+        padding: 8px 1px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+}
+
+.work {
+    @include font-settings($primary-font-color, $secondary-font-family);
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 300px;
+    width: 260px;
+    height: 300px;
+    left: 90px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    h1 {
+        min-width: 260px;
+    border-bottom: 1px solid black;
+    }
+    h2{
+        padding-top: 20px;
     }
 }
