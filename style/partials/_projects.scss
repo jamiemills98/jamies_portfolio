@@ -19,20 +19,38 @@
         top: 10px;
     }
     p {
+        padding-top: 5px;
         position: relative;
         left: 5px;
     }
     #project1 {
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
+        position: relative;
         margin-top: 10px;
-        padding: 30px 0px 5px 0px;
+        padding: 10px 0px 5px 0px;
         height: 250px;
+        top: -80px;
     }
     #project2 {
         position: relative;
         width: 220px;
-        top: -100px;
+        top: -163px;
+        height: 260px;
+        border-bottom: 1px dashed white;
+    }
+    #project3 {
+        position: relative;
+        top: -240px;
+        left: 20px;
+    }
+    #project4 {
+        position: relative;
+        top: -300px;
+        width: 220px;
+        height: 270px;
+        padding-top: 10px;
+        border-top: 1px dashed white;
         border-bottom: 1px dashed white;
     }
 }
