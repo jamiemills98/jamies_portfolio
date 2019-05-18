@@ -288,8 +288,8 @@ body {
 
 .project_list #project2 {
   position: relative;
+  width: 220px;
   top: -100px;
-  left: 20px;
   border-bottom: 1px dashed white;
 }
 /*# sourceMappingURL=style.css.map */
