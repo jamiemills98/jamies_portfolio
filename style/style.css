@@ -109,8 +109,9 @@ header a {
           justify-content: center;
   left: 116px;
   top: 470px;
-  width: 190px;
-  border: 1px dashed black;
+  width: 200px;
+  border-top: 0.5px dashed black;
+  border-bottom: 0.5px dashed black;
   padding: 10px;
 }
 
