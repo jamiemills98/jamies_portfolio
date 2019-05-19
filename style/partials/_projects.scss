@@ -1,57 +1,50 @@
 .project_list {
     @include font-settings($secondary-font-color, $secondary-font-family);
-    font-size: 8px;
-    display: flex;
-    flex-wrap: wrap;
+    @include basic-flex;
+    flex-direction: row;
     justify-content: center;
+    font-size: 8px;
     background-color: black;
     position: relative;
     top: 200px;
     width: 260px;
-    height: 1500px;
+    height: auto;
     left: 82px;
 
     img {
-        position: relative;
         height: 200px;
         width: 180px;
-        left: 20px;
-        top: 10px;
+        padding: 10px 40px;
     }
     p {
-        padding-top: 5px;
-        position: relative;
-        left: 5px;
+        padding: 10px 10px;;
+        
     }
     #project1 {
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
-        position: relative;
         margin-top: 10px;
         padding: 10px 0px 5px 0px;
-        height: 250px;
-        top: -80px;
+       
     }
     #project2 {
-        position: relative;
-        width: 220px;
-        top: -163px;
-        height: 260px;
+        
+        height: 280px;
         padding-top: 10px;
         border-bottom: 1px dashed white;
     }
     #project3 {
-        position: relative;
-        top: -240px;
-        left: 20px;
+      
     }
     #project4 {
-        position: relative;
-        top: -300px;
-        width: 220px;
         height: 270px;
         padding-top: 10px;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
     }
+}
+
+#project_foot {
+    position: relative;
+    top: 100px;
 }

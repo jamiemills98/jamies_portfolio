@@ -40,6 +40,9 @@ body {
 }
 
 .page_banner {
+    @include font-settings();
+    @include basic-flex();
+    justify-content: center;
     width: 260px;
     height: 100px;
     position: absolute;
@@ -49,17 +52,8 @@ body {
     box-shadow: 3px 3px 3px rgb(24, 24, 24);
     background-color: rgba(255, 255, 255, 0.178);
     p {
-        @include font-settings();
         font-size: 30px;
         text-align: center;
         padding-top: 30px
     }
-}
-
-
-#about_foot {
-    position: relative;
-    top: 395px;
-    font-size: 10px;
-    left: 90px;
 }

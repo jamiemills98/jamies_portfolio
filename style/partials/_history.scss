@@ -1,29 +1,28 @@
 .study {
     @include font-settings($primary-font-color, $secondary-font-family);
+    @include basic-flex;
     font-size: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     position: relative;
     top: 200px;
     width: 240px;
     height: 300px;
     left: 90px;
     padding-bottom: 30px;
+    h1 {
+        min-width: 260px;
+        border-bottom: 1px solid black;
+    }
     p {
         min-width: 260px;
         padding: 8px 1px;
-        border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
 }
 
 .work {
     @include font-settings($primary-font-color, $secondary-font-family);
+    @include basic-flex;
     font-size: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     position: relative;
     top: 210px;
     width: 260px;
@@ -46,9 +45,8 @@
 
 .references {
     @include font-settings($primary-font-color, $secondary-font-family);
+    @include basic-flex;
     font-size: 8px;
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
     top:230px;
     width: 260px;

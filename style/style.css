@@ -135,6 +135,19 @@ footer {
 }
 
 .about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: black;
+  font-family: "Lora", serif;
   position: relative;
   width: 250px;
   left: 90px;
@@ -153,8 +166,6 @@ footer {
 }
 
 .about_me #top h2 {
-  color: black;
-  font-family: "Lora", serif;
   position: relative;
   font-size: 20px;
   top: -100px;
@@ -162,13 +173,30 @@ footer {
 }
 
 .about_me p {
-  color: black;
   font-family: "Monstserrat", sans-serif;
   font-size: 12px;
   top: -100px;
   padding: 15px 0px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+#about_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 * {
@@ -220,6 +248,22 @@ body {
 }
 
 .page_banner {
+  color: black;
+  font-family: "Lora", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 260px;
   height: 100px;
   position: absolute;
@@ -232,101 +276,91 @@ body {
 }
 
 .page_banner p {
-  color: black;
-  font-family: "Lora", serif;
   font-size: 30px;
   text-align: center;
   padding-top: 30px;
 }
 
-#about_foot {
-  position: relative;
-  top: 395px;
-  font-size: 10px;
-  left: 90px;
-}
-
 .project_list {
   color: white;
   font-family: "Monstserrat", sans-serif;
-  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 8px;
   background-color: black;
   position: relative;
   top: 200px;
   width: 260px;
-  height: 1500px;
+  height: auto;
   left: 82px;
 }
 
 .project_list img {
-  position: relative;
   height: 200px;
   width: 180px;
-  left: 20px;
-  top: 10px;
+  padding: 10px 40px;
 }
 
 .project_list p {
-  padding-top: 5px;
-  position: relative;
-  left: 5px;
+  padding: 10px 10px;
 }
 
 .project_list #project1 {
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
-  position: relative;
   margin-top: 10px;
   padding: 10px 0px 5px 0px;
-  height: 250px;
-  top: -80px;
 }
 
 .project_list #project2 {
-  position: relative;
-  width: 220px;
-  top: -163px;
-  height: 260px;
+  height: 280px;
   padding-top: 10px;
   border-bottom: 1px dashed white;
 }
 
-.project_list #project3 {
-  position: relative;
-  top: -240px;
-  left: 20px;
-}
-
 .project_list #project4 {
-  position: relative;
-  top: -300px;
-  width: 220px;
   height: 270px;
   padding-top: 10px;
   border-top: 1px dashed white;
   border-bottom: 1px dashed white;
 }
 
+#project_foot {
+  position: relative;
+  top: 100px;
+}
+
 .study {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 8px;
   position: relative;
   top: 200px;
   width: 240px;
@@ -335,25 +369,32 @@ body {
   padding-bottom: 30px;
 }
 
+.study h1 {
+  min-width: 260px;
+  border-bottom: 1px solid black;
+}
+
 .study p {
   min-width: 260px;
   padding: 8px 1px;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .work {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 8px;
   position: relative;
   top: 210px;
   width: 260px;
@@ -380,12 +421,18 @@ body {
 .references {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 8px;
   position: relative;
   top: 230px;
   width: 260px;
