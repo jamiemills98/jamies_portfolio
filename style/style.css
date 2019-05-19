@@ -315,6 +315,7 @@ body {
   height: 200px;
   width: 180px;
   padding: 10px 40px;
+  border-bottom: 1px dashed white;
 }
 
 .project_list p {
@@ -323,22 +324,7 @@ body {
 
 .project_list #project1 {
   border-top: 1px dashed white;
-  border-bottom: 1px dashed white;
   margin-top: 10px;
-  padding: 10px 0px 5px 0px;
-}
-
-.project_list #project2 {
-  height: 280px;
-  padding-top: 10px;
-  border-bottom: 1px dashed white;
-}
-
-.project_list #project4 {
-  height: 270px;
-  padding-top: 10px;
-  border-top: 1px dashed white;
-  border-bottom: 1px dashed white;
 }
 
 #project_foot {
