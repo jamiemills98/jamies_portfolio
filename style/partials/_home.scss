@@ -1,8 +1,7 @@
 
 .main_banner {
     @include font-settings();
-    width: 280px;
-    height: 150px;
+    @include basic-flex;
     position: absolute;
     left: 80px;
     top: 50px;
@@ -13,13 +12,13 @@
     p {
         @include font-settings();
         font-size: 40px;
-        text-align: center;
         padding: 50px 30px;
     }
     
 }
 
 #quote {
+    @include basic-flex;
     position: absolute;
     top: 260px;
     left: 102px;
@@ -31,14 +30,14 @@
 }
 
 #connect {
+    @include basic-flex;
     @include font-settings ($primary-font-color, $secondary-font-family);
+    justify-content: center;
     font-size: 12px;
     position: relative;
-    flex-direction: row;
-    justify-content: center;
-    left: 116px;
-    top: 470px;
-    width: 200px;
+    top: 520px;
+    left: 20px;
+    width: 400px;
     border-top: 0.5px dashed black;
     border-bottom: 0.5px dashed black;
     padding: 10px;
@@ -47,14 +46,11 @@
         @include font-settings ();
         padding: 10px;
     }
-    p {
-        @include font-settings ($primary-font-color, $secondary-font-family);
-    }
 }
 
 footer {
     position: absolute;
-    top: 630px;
+    top: 740px;
     right: 100px;
     font-size: 10px;
     width: 200px;

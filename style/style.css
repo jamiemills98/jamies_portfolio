@@ -65,8 +65,17 @@ header a {
 .main_banner {
   color: black;
   font-family: "Lora", serif;
-  width: 280px;
-  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   position: absolute;
   left: 80px;
   top: 50px;
@@ -80,11 +89,21 @@ header a {
   color: black;
   font-family: "Lora", serif;
   font-size: 40px;
-  text-align: center;
   padding: 50px 30px;
 }
 
 #quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   position: absolute;
   top: 260px;
   left: 102px;
@@ -96,20 +115,27 @@ header a {
 }
 
 #connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 12px;
-  position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  left: 116px;
-  top: 470px;
-  width: 200px;
+  font-size: 12px;
+  position: relative;
+  top: 520px;
+  left: 20px;
+  width: 400px;
   border-top: 0.5px dashed black;
   border-bottom: 0.5px dashed black;
   padding: 10px;
@@ -121,14 +147,9 @@ header a {
   padding: 10px;
 }
 
-#connect p {
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-}
-
 footer {
   position: absolute;
-  top: 630px;
+  top: 740px;
   right: 100px;
   font-size: 10px;
   width: 200px;
