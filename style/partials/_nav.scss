@@ -35,10 +35,10 @@ header {
         position: absolute;
     }
     .border {
+        @include basic-flex;
         position: fixed;
         height: 100%;
         max-width: 72px;
-        display: flex;
         flex-direction: column;
         background-color: black;
         opacity: 0.86;
@@ -48,6 +48,7 @@ header {
         color: #FFF;
         transition: all 0.3s;
         font-size: 14px;
+        width: 50px;
         margin: 25px 6px;
         padding: 6px 6px;
         position: relative;
