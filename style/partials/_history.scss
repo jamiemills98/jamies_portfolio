@@ -1,63 +1,36 @@
-.study {
+.table {
     @include font-settings($primary-font-color, $secondary-font-family);
     @include basic-flex;
     font-size: 8px;
     position: relative;
     top: 200px;
-    width: 240px;
-    height: 300px;
+    width: 260px;
     left: 90px;
     padding-bottom: 30px;
     h1 {
-        min-width: 260px;
+        padding-top: 30px;
         border-bottom: 1px solid black;
     }
     p {
-        min-width: 260px;
         padding: 8px 1px;
         border-bottom: 1px solid black;
     }
 }
 
-.work {
-    @include font-settings($primary-font-color, $secondary-font-family);
-    @include basic-flex;
-    font-size: 8px;
-    position: relative;
-    top: 210px;
-    width: 260px;
-    height: auto;
-    left: 90px;
-    padding-bottom: 5px;
-    h1 {
-        min-width: 260px;
-    border-bottom: 1px solid black;
-    }
+#work {
     h2 {
         padding-top: 15px;
     }
     ul {
-        min-width: 260px;
         padding-bottom: 15px;
         border-bottom: 1px solid black;
     }
 }
 
-.references {
-    @include font-settings($primary-font-color, $secondary-font-family);
-    @include basic-flex;
-    font-size: 8px;
-    position: relative;
-    top:230px;
-    width: 260px;
-    height: 140px;
-    left: 90px;
+#references {
+    min-width: 260px;
     padding-bottom: 5px;
     h3 {
         padding-top: 5px;
-    }
-    p {
-        min-width: 260px;
-        border-bottom: 1px solid black;
     }
 }

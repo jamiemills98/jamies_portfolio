@@ -328,7 +328,7 @@ body {
   left: 80px;
 }
 
-.study {
+.table {
   color: black;
   font-family: "Monstserrat", sans-serif;
   display: -webkit-box;
@@ -345,90 +345,36 @@ body {
   font-size: 8px;
   position: relative;
   top: 200px;
-  width: 240px;
-  height: 300px;
+  width: 260px;
   left: 90px;
   padding-bottom: 30px;
 }
 
-.study h1 {
-  min-width: 260px;
+.table h1 {
+  padding-top: 30px;
   border-bottom: 1px solid black;
 }
 
-.study p {
-  min-width: 260px;
+.table p {
   padding: 8px 1px;
   border-bottom: 1px solid black;
 }
 
-.work {
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  font-size: 8px;
-  position: relative;
-  top: 210px;
-  width: 260px;
-  height: auto;
-  left: 90px;
-  padding-bottom: 5px;
-}
-
-.work h1 {
-  min-width: 260px;
-  border-bottom: 1px solid black;
-}
-
-.work h2 {
+#work h2 {
   padding-top: 15px;
 }
 
-.work ul {
-  min-width: 260px;
+#work ul {
   padding-bottom: 15px;
   border-bottom: 1px solid black;
 }
 
-.references {
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  font-size: 8px;
-  position: relative;
-  top: 230px;
-  width: 260px;
-  height: 140px;
-  left: 90px;
+#references {
+  min-width: 260px;
   padding-bottom: 5px;
 }
 
-.references h3 {
+#references h3 {
   padding-top: 5px;
-}
-
-.references p {
-  min-width: 260px;
-  border-bottom: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
