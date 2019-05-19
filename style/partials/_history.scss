@@ -1,6 +1,6 @@
 .study {
     @include font-settings($primary-font-color, $secondary-font-family);
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -20,22 +20,46 @@
 
 .work {
     @include font-settings($primary-font-color, $secondary-font-family);
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    top: 300px;
+    top: 210px;
     width: 260px;
-    height: 300px;
+    height: auto;
     left: 90px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    padding-bottom: 5px;
     h1 {
         min-width: 260px;
     border-bottom: 1px solid black;
     }
-    h2{
-        padding-top: 20px;
+    h2 {
+        padding-top: 15px;
+    }
+    ul {
+        min-width: 260px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid black;
+    }
+}
+
+.references {
+    @include font-settings($primary-font-color, $secondary-font-family);
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:230px;
+    width: 260px;
+    height: 140px;
+    left: 90px;
+    padding-bottom: 5px;
+    h3 {
+        padding-top: 5px;
+    }
+    p {
+        min-width: 260px;
+        border-bottom: 1px solid black;
     }
 }

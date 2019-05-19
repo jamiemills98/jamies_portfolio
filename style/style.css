@@ -318,7 +318,7 @@ body {
 .study {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,7 +345,7 @@ body {
 .work {
   color: black;
   font-family: "Monstserrat", sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,12 +355,11 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  top: 300px;
+  top: 210px;
   width: 260px;
-  height: 300px;
+  height: auto;
   left: 90px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 
 .work h1 {
@@ -369,6 +368,38 @@ body {
 }
 
 .work h2 {
-  padding-top: 20px;
+  padding-top: 15px;
+}
+
+.work ul {
+  min-width: 260px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.references {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
+  font-size: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  top: 230px;
+  width: 260px;
+  height: 140px;
+  left: 90px;
+  padding-bottom: 5px;
+}
+
+.references h3 {
+  padding-top: 5px;
+}
+
+.references p {
+  min-width: 260px;
+  border-bottom: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
