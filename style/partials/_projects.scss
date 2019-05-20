@@ -41,22 +41,27 @@
         @include font-settings($secondary-font-color, $secondary-font-family);
         @include basic-flex;
         justify-content: center;
+        flex-direction: row;
         background-color: black;
+        width: 600px;
         position: relative;
+        left: 130px;
+        top: 120px;
         
 
-        // img {
-        //     // height: 200px;
-        //     // width: 180px;
-        //     // padding: 10px 40px;
-        //     // border-bottom: 1px dashed white;
-        // }
-        // p {
-        //     // padding: 10px 10px;;
-        // }
-        // #project1 {
-        //     border-top: 1px dashed white;
-        //     margin-top: 10px;
-        // }
+        img {
+            height: 120px;
+            width: 100px;
+            padding: 10px 250px;
+            border-bottom: 1px dashed white;
+            justify-content: center;
+        }
+        p {
+            padding: 10px 80px;;
+        }
+        #project1 {
+            border-top: 1px dashed white;
+            margin-top: 10px;
+        }
     }
 }
