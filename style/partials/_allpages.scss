@@ -28,23 +28,18 @@ body {
         100%{background-position:49% 0%}
     }
 }
-// Across all screens styling
 
-#header_socials {
-    @include basic-flex();
-    flex-direction: row;
-    justify-content: flex-end;
-    // border: 1px solid rgb(26, 26, 26);
-    // box-shadow: 3px 3px 3px rgb(24, 24, 24);
-    // background-color: rgba(255, 255, 255, 0.178);
-}
 /* Mobile Styling */ 
 
 @media screen and (max-width:450px){
     #header_socials {
+        @include basic-flex;
+        flex-direction: row;
+        justify-content: flex-end;
         img {
             width: 30px;
             height: 30px;
+            padding: 5px 3px;
         }
     }
 
@@ -54,7 +49,7 @@ body {
         justify-content: center;
         width: 260px;
         height: 100px;
-        position: relative;
+        position: absolute;
         left: 80px;
         top: 50px;
         border: 1px solid rgb(26, 26, 26);
@@ -73,6 +68,9 @@ body {
 
 @media screen and (min-width: 451px) and (max-width:960px) {
     #header_socials {
+        @include basic-flex;
+        flex-direction: row;
+        justify-content: flex-end;
         img {
             width: 50px;
             height: 50px;
@@ -89,12 +87,12 @@ body {
         top: 10px;
         left: 150px;
         width: 560px;
-        height: 130px;
+        height: 140px;
         border: 1px solid rgb(26, 26, 26);
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
         p {
-            font-size: 55px;
+            font-size: 60px;
             text-align: center;
             padding-top: 30px
         }

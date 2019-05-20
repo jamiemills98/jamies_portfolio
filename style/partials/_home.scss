@@ -1,5 +1,5 @@
 //Mobile Styling
-@media screen and (max-width:450px){
+@media screen and (max-width:450px) {
     .main_banner {
         @include font-settings();
         @include basic-flex;

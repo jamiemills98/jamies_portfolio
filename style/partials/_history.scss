@@ -1,15 +1,13 @@
-//Styling across all screens
 
-.table {
-    @include font-settings($primary-font-color, $secondary-font-family);
-    @include basic-flex;
 
 //Mobile Styling
 @media screen and (max-width:450px){
     .table {
+        @include font-settings($primary-font-color, $secondary-font-family);
+    @include basic-flex;
         font-size: 8px;
         position: relative;
-        top: 200px;
+        top: 180px;
         width: 260px;
         left: 90px;
         padding-bottom: 30px;
@@ -46,6 +44,8 @@
 
 @media screen and (min-width: 451px) and (max-width:960px) {
     .table {
+        @include font-settings($primary-font-color, $secondary-font-family);
+    @include basic-flex;
         font-size: 8px;
         position: relative;
         top: 200px;
@@ -79,5 +79,4 @@
             padding-top: 5px;
         }
     }
-}
 }
