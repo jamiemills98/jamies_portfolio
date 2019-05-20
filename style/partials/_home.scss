@@ -64,16 +64,18 @@
     .main_banner {
         @include font-settings();
         @include basic-flex;
+        justify-content: center;
         position: absolute;
-        left: 80px;
-        top: 50px;
+        left: 140px;
+        top: 100px;
+        width: 550px;
         border: 1px solid rgb(26, 26, 26);
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
 
         p {
             @include font-settings();
-            font-size: 40px;
+            font-size: 70px;
             padding: 50px 30px;
         }
         
@@ -82,10 +84,10 @@
     #quote {
         @include basic-flex;
         position: absolute;
-        top: 260px;
-        left: 94px;
-        font-size: 15px;
-        width: 200px;
+        top: 350px;
+        left: 194px;
+        font-size: 25px;
+        width: 400px;
         padding: 20px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -97,9 +99,9 @@
         justify-content: center;
         font-size: 12px;
         position: relative;
-        top: 450px;
-        left: 62px;
-        max-width: 300px;
+        top: 570px;
+        left: 102px;
+        width: 650px;
         border-top: 0.5px dashed black;
         border-bottom: 0.5px dashed black;
         padding: 10px;
@@ -111,9 +113,10 @@
     }
 
     footer {
+        @include basic-flex;
         position: absolute;
-        top: 640px;
-        right: 100px;
+        top: 740px;
+        right: 5px;
         font-size: 10px;
         width: 200px;
     }
