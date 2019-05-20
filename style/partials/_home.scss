@@ -21,7 +21,7 @@
     @include basic-flex;
     position: absolute;
     top: 260px;
-    left: 102px;
+    left: 94px;
     font-size: 15px;
     width: 200px;
     padding: 20px;
@@ -35,9 +35,9 @@
     justify-content: center;
     font-size: 12px;
     position: relative;
-    top: 520px;
-    left: 50px;
-    width: 300px;
+    top: 450px;
+    left: 62px;
+    max-width: 300px;
     border-top: 0.5px dashed black;
     border-bottom: 0.5px dashed black;
     padding: 10px;
@@ -50,7 +50,7 @@
 
 footer {
     position: absolute;
-    top: 740px;
+    top: 640px;
     right: 100px;
     font-size: 10px;
     width: 200px;
