@@ -701,15 +701,19 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    font-size: 8px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
     position: relative;
-    top: 200px;
-    width: 260px;
-    left: 90px;
+    top: 40px;
+    width: 460px;
+    left: 180px;
     padding-bottom: 30px;
   }
   .table h1 {
-    padding-top: 30px;
+    padding-top: 60px;
     border-bottom: 1px solid black;
   }
   .table p {
