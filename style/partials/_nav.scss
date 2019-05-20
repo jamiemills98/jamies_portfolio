@@ -38,7 +38,6 @@ header {
         @include basic-flex;
         position: fixed;
         height: 100%;
-        max-width: 72px;
         flex-direction: column;
         background-color: black;
         opacity: 0.86;
@@ -47,11 +46,36 @@ header {
         @include font-settings($secondary-font-color, $primary-font-family);
         color: #FFF;
         transition: all 0.3s;
-        font-size: 14px;
-        width: 50px;
         margin: 25px 6px;
         padding: 6px 6px;
         position: relative;
         cursor: pointer;
+    }
+}
+
+//Mobile Styling
+
+@media screen and (max-width: 450px) {
+    header {
+        .border {
+            width: 72px;
+        }
+        a {
+            font-size: 14px;
+            width: 50px;
+        }
+    }
+}
+// Tablet Styling
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+    header {
+        .border {
+            min-width: 100px;
+        }
+        a {
+        font-size: 20px;
+        width: 75px;
+        }
     }
 }

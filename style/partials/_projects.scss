@@ -1,4 +1,6 @@
-@media screen and (max-width:450px){
+
+//Mobile Styling
+@media screen and (max-width:450px) {
     .project_list {
         @include font-settings($secondary-font-color, $secondary-font-family);
         @include basic-flex;
@@ -29,5 +31,32 @@
         position: relative;
         top: 220px;
         left: 80px;
+    }
+}
+
+// Tablet Styling 
+
+@media screen and (min-width: 451px) and (max-width:960px) {
+    .project_list {
+        @include font-settings($secondary-font-color, $secondary-font-family);
+        @include basic-flex;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        
+
+        // img {
+        //     // height: 200px;
+        //     // width: 180px;
+        //     // padding: 10px 40px;
+        //     // border-bottom: 1px dashed white;
+        // }
+        // p {
+        //     // padding: 10px 10px;;
+        // }
+        // #project1 {
+        //     border-top: 1px dashed white;
+        //     margin-top: 10px;
+        // }
     }
 }

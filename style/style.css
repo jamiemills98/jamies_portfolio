@@ -48,7 +48,6 @@ header .border {
           align-items: flex-start;
   position: fixed;
   height: 100%;
-  max-width: 72px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -63,8 +62,6 @@ header a {
   color: #FFF;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-size: 14px;
-  width: 50px;
   margin: 25px 6px;
   padding: 6px 6px;
   position: relative;
@@ -72,6 +69,116 @@ header a {
 }
 
 @media screen and (max-width: 450px) {
+  header .border {
+    width: 72px;
+  }
+  header a {
+    font-size: 14px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  header .border {
+    min-width: 100px;
+  }
+  header a {
+    font-size: 20px;
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main_banner {
+    color: black;
+    font-family: "Lora", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    border: 1px solid #1a1a1a;
+    -webkit-box-shadow: 3px 3px 3px #181818;
+            box-shadow: 3px 3px 3px #181818;
+    background-color: rgba(255, 255, 255, 0.178);
+  }
+  .main_banner p {
+    color: black;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    padding: 50px 30px;
+  }
+  #quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    top: 260px;
+    left: 94px;
+    font-size: 15px;
+    width: 200px;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  #connect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: black;
+    font-family: "Monstserrat", sans-serif;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 12px;
+    position: relative;
+    top: 450px;
+    left: 62px;
+    max-width: 300px;
+    border-top: 0.5px dashed black;
+    border-bottom: 0.5px dashed black;
+    padding: 10px;
+  }
+  #connect h2 {
+    color: black;
+    font-family: "Lora", serif;
+    padding: 10px;
+  }
+  footer {
+    position: absolute;
+    top: 640px;
+    right: 100px;
+    font-size: 10px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main_banner {
     color: black;
     font-family: "Lora", serif;
@@ -219,6 +326,64 @@ header a {
   }
 }
 
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .about_me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: black;
+    font-family: "Lora", serif;
+    position: relative;
+    width: 250px;
+    left: 90px;
+    top: 200px;
+  }
+  .about_me #top img {
+    width: 140px;
+    height: 140px;
+  }
+  .about_me #top h2 {
+    position: relative;
+    font-size: 20px;
+    top: -100px;
+    left: 150px;
+  }
+  .about_me p {
+    font-family: "Monstserrat", sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -50px;
+    padding: 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  #about_foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -256,13 +421,29 @@ body {
   }
 }
 
+#header_socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 /* Mobile Styling */
 @media screen and (max-width: 450px) {
-  #header_socials {
-    position: absolute;
-    left: 260px;
-    top: 5px;
-  }
   #header_socials img {
     width: 30px;
     height: 30px;
@@ -289,6 +470,47 @@ body {
     position: absolute;
     left: 80px;
     top: 50px;
+    border: 1px solid #1a1a1a;
+    -webkit-box-shadow: 3px 3px 3px #181818;
+            box-shadow: 3px 3px 3px #181818;
+    background-color: rgba(255, 255, 255, 0.178);
+  }
+  .page_banner p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  #header_socials img {
+    width: 50px;
+    height: 50px;
+    padding: 10px 6px;
+  }
+  .page_banner {
+    color: black;
+    font-family: "Lora", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 660px;
+    height: 100px;
     border: 1px solid #1a1a1a;
     -webkit-box-shadow: 3px 3px 3px #181818;
             box-shadow: 3px 3px 3px #181818;
@@ -346,7 +568,76 @@ body {
   }
 }
 
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .project_list {
+    color: white;
+    font-family: "Monstserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: black;
+    position: relative;
+  }
+}
+
 @media screen and (max-width: 450px) {
+  .table {
+    color: black;
+    font-family: "Monstserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 8px;
+    position: relative;
+    top: 200px;
+    width: 260px;
+    left: 90px;
+    padding-bottom: 30px;
+  }
+  .table h1 {
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+  }
+  .table p {
+    padding: 8px 1px;
+    border-bottom: 1px solid black;
+  }
+  #work h2 {
+    padding-top: 15px;
+  }
+  #work ul {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+  }
+  #references {
+    min-width: 260px;
+    padding-bottom: 5px;
+  }
+  #references h3 {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .table {
     color: black;
     font-family: "Monstserrat", sans-serif;
