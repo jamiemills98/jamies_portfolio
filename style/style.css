@@ -71,157 +71,152 @@ header a {
   cursor: pointer;
 }
 
-.main_banner {
-  color: black;
-  font-family: "Lora", serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  position: absolute;
-  left: 80px;
-  top: 50px;
-  border: 1px solid #1a1a1a;
-  -webkit-box-shadow: 3px 3px 3px #181818;
-          box-shadow: 3px 3px 3px #181818;
-  background-color: rgba(255, 255, 255, 0.178);
+@media screen and (max-width: 450px) {
+  .main_banner {
+    color: black;
+    font-family: "Lora", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    border: 1px solid #1a1a1a;
+    -webkit-box-shadow: 3px 3px 3px #181818;
+            box-shadow: 3px 3px 3px #181818;
+    background-color: rgba(255, 255, 255, 0.178);
+  }
+  .main_banner p {
+    color: black;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    padding: 50px 30px;
+  }
+  #quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    top: 260px;
+    left: 94px;
+    font-size: 15px;
+    width: 200px;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  #connect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: black;
+    font-family: "Monstserrat", sans-serif;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 12px;
+    position: relative;
+    top: 450px;
+    left: 62px;
+    max-width: 300px;
+    border-top: 0.5px dashed black;
+    border-bottom: 0.5px dashed black;
+    padding: 10px;
+  }
+  #connect h2 {
+    color: black;
+    font-family: "Lora", serif;
+    padding: 10px;
+  }
+  footer {
+    position: absolute;
+    top: 640px;
+    right: 100px;
+    font-size: 10px;
+    width: 200px;
+  }
 }
 
-.main_banner p {
-  color: black;
-  font-family: "Lora", serif;
-  font-size: 40px;
-  padding: 50px 30px;
-}
-
-#quote {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  position: absolute;
-  top: 260px;
-  left: 94px;
-  font-size: 15px;
-  width: 200px;
-  padding: 20px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-#connect {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 12px;
-  position: relative;
-  top: 450px;
-  left: 62px;
-  max-width: 300px;
-  border-top: 0.5px dashed black;
-  border-bottom: 0.5px dashed black;
-  padding: 10px;
-}
-
-#connect h2 {
-  color: black;
-  font-family: "Lora", serif;
-  padding: 10px;
-}
-
-footer {
-  position: absolute;
-  top: 640px;
-  right: 100px;
-  font-size: 10px;
-  width: 200px;
-}
-
-.about_me {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: black;
-  font-family: "Lora", serif;
-  position: relative;
-  width: 250px;
-  left: 90px;
-  top: 200px;
-}
-
-.about_me #top img {
-  width: 140px;
-  height: 140px;
-}
-
-.about_me #top h2 {
-  position: relative;
-  font-size: 20px;
-  top: -100px;
-  left: 150px;
-}
-
-.about_me p {
-  font-family: "Monstserrat", sans-serif;
-  font-size: 12px;
-  position: relative;
-  top: -50px;
-  padding: 15px 0px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-#about_foot {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+@media screen and (max-width: 450px) {
+  .about_me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: black;
+    font-family: "Lora", serif;
+    position: relative;
+    width: 250px;
+    left: 90px;
+    top: 200px;
+  }
+  .about_me #top img {
+    width: 140px;
+    height: 140px;
+  }
+  .about_me #top h2 {
+    position: relative;
+    font-size: 20px;
+    top: -100px;
+    left: 150px;
+  }
+  .about_me p {
+    font-family: "Monstserrat", sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -50px;
+    padding: 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  #about_foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 * {
@@ -261,145 +256,139 @@ body {
   }
 }
 
-#header_socials {
-  position: absolute;
-  left: 260px;
-  top: 5px;
+/* Mobile Styling */
+@media screen and (max-width: 450px) {
+  #header_socials {
+    position: absolute;
+    left: 260px;
+    top: 5px;
+  }
+  #header_socials img {
+    width: 30px;
+    height: 30px;
+  }
+  .page_banner {
+    color: black;
+    font-family: "Lora", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 260px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    border: 1px solid #1a1a1a;
+    -webkit-box-shadow: 3px 3px 3px #181818;
+            box-shadow: 3px 3px 3px #181818;
+    background-color: rgba(255, 255, 255, 0.178);
+  }
+  .page_banner p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+  }
 }
 
-#header_socials img {
-  width: 30px;
-  height: 30px;
+@media screen and (max-width: 450px) {
+  .project_list {
+    color: white;
+    font-family: "Monstserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 8px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    width: 260px;
+    left: 82px;
+  }
+  .project_list img {
+    height: 200px;
+    width: 180px;
+    padding: 10px 40px;
+    border-bottom: 1px dashed white;
+  }
+  .project_list p {
+    padding: 10px 10px;
+  }
+  .project_list #project1 {
+    border-top: 1px dashed white;
+    margin-top: 10px;
+  }
+  #project_foot {
+    position: relative;
+    top: 220px;
+    left: 80px;
+  }
 }
 
-.page_banner {
-  color: black;
-  font-family: "Lora", serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 260px;
-  height: 100px;
-  position: absolute;
-  left: 80px;
-  top: 50px;
-  border: 1px solid #1a1a1a;
-  -webkit-box-shadow: 3px 3px 3px #181818;
-          box-shadow: 3px 3px 3px #181818;
-  background-color: rgba(255, 255, 255, 0.178);
-}
-
-.page_banner p {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.project_list {
-  color: white;
-  font-family: "Monstserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 8px;
-  background-color: black;
-  position: relative;
-  top: 200px;
-  width: 260px;
-  left: 82px;
-}
-
-.project_list img {
-  height: 200px;
-  width: 180px;
-  padding: 10px 40px;
-  border-bottom: 1px dashed white;
-}
-
-.project_list p {
-  padding: 10px 10px;
-}
-
-.project_list #project1 {
-  border-top: 1px dashed white;
-  margin-top: 10px;
-}
-
-#project_foot {
-  position: relative;
-  top: 220px;
-  left: 80px;
-}
-
-.table {
-  color: black;
-  font-family: "Monstserrat", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  font-size: 8px;
-  position: relative;
-  top: 200px;
-  width: 260px;
-  left: 90px;
-  padding-bottom: 30px;
-}
-
-.table h1 {
-  padding-top: 30px;
-  border-bottom: 1px solid black;
-}
-
-.table p {
-  padding: 8px 1px;
-  border-bottom: 1px solid black;
-}
-
-#work h2 {
-  padding-top: 15px;
-}
-
-#work ul {
-  padding-bottom: 15px;
-  border-bottom: 1px solid black;
-}
-
-#references {
-  min-width: 260px;
-  padding-bottom: 5px;
-}
-
-#references h3 {
-  padding-top: 5px;
+@media screen and (max-width: 450px) {
+  .table {
+    color: black;
+    font-family: "Monstserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 8px;
+    position: relative;
+    top: 200px;
+    width: 260px;
+    left: 90px;
+    padding-bottom: 30px;
+  }
+  .table h1 {
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+  }
+  .table p {
+    padding: 8px 1px;
+    border-bottom: 1px solid black;
+  }
+  #work h2 {
+    padding-top: 15px;
+  }
+  #work ul {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+  }
+  #references {
+    min-width: 260px;
+    padding-bottom: 5px;
+  }
+  #references h3 {
+    padding-top: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
