@@ -467,7 +467,7 @@ body {
             justify-content: center;
     width: 260px;
     height: 100px;
-    position: absolute;
+    position: relative;
     left: 80px;
     top: 50px;
     border: 1px solid #1a1a1a;
@@ -509,15 +509,18 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 660px;
-    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    width: 560px;
+    height: 130px;
     border: 1px solid #1a1a1a;
     -webkit-box-shadow: 3px 3px 3px #181818;
             box-shadow: 3px 3px 3px #181818;
     background-color: rgba(255, 255, 255, 0.178);
   }
   .page_banner p {
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     padding-top: 30px;
   }
@@ -591,21 +594,24 @@ body {
   }
 }
 
+.table {
+  color: black;
+  font-family: "Monstserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 @media screen and (max-width: 450px) {
-  .table {
-    color: black;
-    font-family: "Monstserrat", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+  .table .table {
     font-size: 8px;
     position: relative;
     top: 200px;
@@ -613,45 +619,32 @@ body {
     left: 90px;
     padding-bottom: 30px;
   }
-  .table h1 {
+  .table .table h1 {
     padding-top: 30px;
     border-bottom: 1px solid black;
   }
-  .table p {
+  .table .table p {
     padding: 8px 1px;
     border-bottom: 1px solid black;
   }
-  #work h2 {
+  .table #work h2 {
     padding-top: 15px;
   }
-  #work ul {
+  .table #work ul {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
   }
-  #references {
+  .table #references {
     min-width: 260px;
     padding-bottom: 5px;
   }
-  #references h3 {
+  .table #references h3 {
     padding-top: 5px;
   }
 }
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  .table {
-    color: black;
-    font-family: "Monstserrat", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+  .table .table {
     font-size: 8px;
     position: relative;
     top: 200px;
@@ -659,26 +652,26 @@ body {
     left: 90px;
     padding-bottom: 30px;
   }
-  .table h1 {
+  .table .table h1 {
     padding-top: 30px;
     border-bottom: 1px solid black;
   }
-  .table p {
+  .table .table p {
     padding: 8px 1px;
     border-bottom: 1px solid black;
   }
-  #work h2 {
+  .table #work h2 {
     padding-top: 15px;
   }
-  #work ul {
+  .table #work ul {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
   }
-  #references {
+  .table #references {
     min-width: 260px;
     padding-bottom: 5px;
   }
-  #references h3 {
+  .table #references h3 {
     padding-top: 5px;
   }
 }

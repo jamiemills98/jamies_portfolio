@@ -34,6 +34,9 @@ body {
     @include basic-flex();
     flex-direction: row;
     justify-content: flex-end;
+    // border: 1px solid rgb(26, 26, 26);
+    // box-shadow: 3px 3px 3px rgb(24, 24, 24);
+    // background-color: rgba(255, 255, 255, 0.178);
 }
 /* Mobile Styling */ 
 
@@ -51,7 +54,7 @@ body {
         justify-content: center;
         width: 260px;
         height: 100px;
-        position: absolute;
+        position: relative;
         left: 80px;
         top: 50px;
         border: 1px solid rgb(26, 26, 26);
@@ -82,16 +85,16 @@ body {
         @include basic-flex();
         flex-direction: row;
         justify-content: center;
-        width: 660px;
-        height: 100px;
-        // position: absolute;
-        // left: 80px;
-        // top: 120px;
+        position: relative;
+        top: 10px;
+        left: 150px;
+        width: 560px;
+        height: 130px;
         border: 1px solid rgb(26, 26, 26);
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
         p {
-            font-size: 30px;
+            font-size: 55px;
             text-align: center;
             padding-top: 30px
         }
