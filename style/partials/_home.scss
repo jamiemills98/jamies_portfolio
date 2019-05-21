@@ -121,3 +121,67 @@
         width: 200px;
     }
 }
+
+
+//Web Styling
+@media screen and (min-width:961px) {
+    .main_banner {
+        @include basic-flex;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        width: 1200px;
+        height: 180px;
+        border: 1px solid rgb(26, 26, 26);
+        box-shadow: 3px 3px 3px rgb(24, 24, 24);
+        background-color: rgba(255, 255, 255, 0.178);
+
+        p {
+            @include font-settings();
+            font-size: 80px;
+            padding: 20px;
+        }
+        
+    }
+
+    #quote {
+        @include basic-flex;
+        position: relative;
+        margin:0 auto;
+        top: 80px;
+        left: 40px;
+        font-size: 30px;
+        width: 800px;
+        padding: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    #connect {
+        @include basic-flex;
+        @include font-settings ($primary-font-color, $secondary-font-family);
+        justify-content: center;
+        font-size: 12px;
+        position: relative;
+        top: 200px;
+        left: 102px;
+        width: 1300px;
+        border-top: 0.5px dashed black;
+        border-bottom: 0.5px dashed black;
+        padding: 10px;
+
+        h2 {
+            @include font-settings ();
+            padding: 10px;
+        }
+    }
+
+    footer {
+        @include basic-flex;
+        position: relative;
+        top: 205px;
+        left: 1250px;
+        font-size: 10px;
+        width: 200px;
+    }
+}

@@ -79,3 +79,17 @@ header {
         }
     }
 }
+
+// Web Styling
+
+@media screen and (min-width: 960px) {
+    header {
+        .border {
+            min-width: 110px;
+        }
+        a {
+        font-size: 20px;
+        width: 75px;
+        }
+    }
+}
