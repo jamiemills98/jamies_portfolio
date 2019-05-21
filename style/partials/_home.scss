@@ -54,9 +54,10 @@
     }
 
     footer {
+        @include basic-flex;
         position: relative;
-        top: 640px;
-        left: 50px;
+        top: 240px;
+        left: 75px;
         font-size: 10px;
         width: 200px;
     }

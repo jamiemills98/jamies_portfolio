@@ -31,7 +31,7 @@ div.border a:hover:before, div.border a:hover:after {
 }
 
 header nav {
-  position: absolute;
+  position: relative;
 }
 
 header .border {
@@ -184,9 +184,20 @@ header a {
     padding: 10px;
   }
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     position: relative;
-    top: 640px;
-    left: 50px;
+    top: 240px;
+    left: 75px;
     font-size: 10px;
     width: 200px;
   }
@@ -457,6 +468,11 @@ header a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 30px;
+    left: 50px;
   }
 }
 
@@ -758,6 +774,7 @@ body {
     top: 40px;
     width: 260px;
     left: 32px;
+    z-index: -1;
   }
   .project_list img {
     height: 200px;
@@ -774,8 +791,8 @@ body {
   }
   #project_foot {
     position: relative;
-    top: 220px;
-    left: 80px;
+    top: 100px;
+    left: 210px;
   }
 }
 
