@@ -1,33 +1,22 @@
-
-//Mobile Styling
-@media screen and (max-width:450px) {
+//General Styling
+@media screen {
     .project_list {
-        @include font-settings($secondary-font-color, $secondary-font-family);
-        @include basic-flex;
-        justify-content: center;
-        font-size: 8px;
-        background-color: black;
-        position: relative;
-        margin: 0 auto;
-        top: 40px;
-        width: 260px;
-        left: 32px;
-        z-index: -1;
-        img {
-            height: 200px;
-            width: 180px;
-            padding: 10px 40px;
-            border-bottom: 1px dashed white;
+    @include font-settings($secondary-font-color, $secondary-font-family);
+    @include basic-flex;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    flex-direction: row;
+    z-index: -1;
+    img {
+        border-bottom: 1px dashed white;
         }
-        p {
-            padding: 10px 10px;;
-        }
-        #project1 {
-            border-top: 1px dashed white;
-            margin-top: 10px;
+    #project1 {
+        border-top: 1px dashed white;
+        margin-top: 10px;
         }
     }
-
     #project_foot {
         position: relative;
         top: 100px;
@@ -35,35 +24,46 @@
     }
 }
 
+//Mobile Styling
+@media screen and (max-width:450px) {
+    .project_list {
+        font-size: 8px;
+        top: 40px;
+        width: 260px;
+        left: 32px;
+        img {
+            height: 200px;
+            width: 180px;
+            padding: 10px 40px;
+        }
+        p {
+            padding: 10px 10px;;
+        }
+    }
+
+    // #project_foot {
+    //     position: relative;
+    //     top: 100px;
+    //     left: 210px;
+    // }
+}
+
 // Tablet Styling 
 
 @media screen and (min-width: 451px) and (max-width:960px) {
     .project_list {
-        @include font-settings($secondary-font-color, $secondary-font-family);
-        @include basic-flex;
-        justify-content: center;
-        flex-direction: row;
         background-color: black;
         width: 600px;
-        position: relative;
-        margin: 0 auto;
         left: 60px;
         top: 120px;
-        z-index: -1;
-
         img {
             height: 200px;
             width: 180px;
             padding: 10px 210px;
-            border-bottom: 1px dashed white;
             justify-content: center;
         }
         p {
             padding: 10px 80px;;
-        }
-        #project1 {
-            border-top: 1px dashed white;
-            margin-top: 10px;
         }
     }
 }
@@ -72,30 +72,17 @@
 
 @media screen and (min-width:961px) {
     .project_list {
-        @include font-settings($secondary-font-color, $secondary-font-family);
-        @include basic-flex;
-        flex-direction: row;
-        justify-content: center;
         background-color: black;
         width: 900px;
-        position: relative;
-        margin: 0 auto;
         left: 10px;
         top: 120px;
-        z-index: -1;
-
         img {
             height: 400px;
             width: 380px;
             padding: 10px 260px;
-            border-bottom: 1px dashed white;
         }
         p {
             padding: 10px 80px;;
-        }
-        #project1 {
-            border-top: 1px dashed white;
-            margin-top: 10px;
         }
     }
 }
