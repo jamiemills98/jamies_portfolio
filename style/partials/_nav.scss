@@ -72,7 +72,7 @@ header {
 @media screen and (min-width: 451px) and (max-width: 960px) {
     header {
         .border {
-            min-width: 100px;
+            max-width: 100px;
         }
         a {
         font-size: 20px;

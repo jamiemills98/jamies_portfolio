@@ -1,4 +1,5 @@
 //General Styling
+
 @media screen {
     .project_list {
     @include font-settings($secondary-font-color, $secondary-font-family);
@@ -17,14 +18,10 @@
         margin-top: 10px;
         }
     }
-    #project_foot {
-        position: relative;
-        top: 100px;
-        left: 210px;
-    }
 }
 
 //Mobile Styling
+
 @media screen and (max-width:450px) {
     .project_list {
         font-size: 8px;
@@ -40,12 +37,11 @@
             padding: 10px 10px;;
         }
     }
-
-    // #project_foot {
-    //     position: relative;
-    //     top: 100px;
-    //     left: 210px;
-    // }
+    #project_foot {
+        position: relative;
+        top: 100px;
+        left: 210px;
+    }
 }
 
 // Tablet Styling 

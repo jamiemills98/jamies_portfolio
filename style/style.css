@@ -80,7 +80,7 @@ header a {
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
   header .border {
-    min-width: 100px;
+    max-width: 100px;
   }
   header a {
     font-size: 20px;
@@ -565,11 +565,6 @@ body {
     border-top: 1px dashed white;
     margin-top: 10px;
   }
-  #project_foot {
-    position: relative;
-    top: 100px;
-    left: 210px;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -586,6 +581,11 @@ body {
   }
   .project_list p {
     padding: 10px 10px;
+  }
+  #project_foot {
+    position: relative;
+    top: 100px;
+    left: 210px;
   }
 }
 
@@ -702,20 +702,20 @@ body {
 
 @media screen and (min-width: 961px) {
   .table {
-    top: 20px;
+    top: 40px;
     width: 460px;
     right: 270px;
   }
   #work {
     position: relative;
     left: 530px;
-    top: -478px;
+    top: -578px;
   }
   #references {
     position: relative;
     min-width: 260px;
     padding-bottom: 5px;
-    top: -1250px;
+    top: -1500px;
     width: 460px;
   }
   #references h3 {
