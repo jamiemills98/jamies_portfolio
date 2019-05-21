@@ -3,9 +3,11 @@
     .main_banner {
         @include font-settings();
         @include basic-flex;
-        position: absolute;
-        left: 80px;
-        top: 50px;
+        position: relative;
+        margin: 0 auto;
+        width: 280px;
+        left: 40px;
+        top: 20px;
         border: 1px solid rgb(26, 26, 26);
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
@@ -20,9 +22,10 @@
 
     #quote {
         @include basic-flex;
-        position: absolute;
-        top: 260px;
-        left: 94px;
+        position: relative;
+        margin: 0 auto;
+        top: 100px;
+        left: 40px;
         font-size: 15px;
         width: 200px;
         padding: 20px;
@@ -36,8 +39,9 @@
         justify-content: center;
         font-size: 12px;
         position: relative;
-        top: 450px;
-        left: 62px;
+        margin: 0 auto;
+        top: 200px;
+        left: 42px;
         max-width: 300px;
         border-top: 0.5px dashed black;
         border-bottom: 0.5px dashed black;
@@ -50,9 +54,9 @@
     }
 
     footer {
-        position: absolute;
+        position: relative;
         top: 640px;
-        right: 100px;
+        left: 50px;
         font-size: 10px;
         width: 200px;
     }
