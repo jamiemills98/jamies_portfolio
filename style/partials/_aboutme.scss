@@ -47,8 +47,9 @@
         @include basic-flex;
         @include font-settings();
         position: relative;
+        margin: 0 auto;
         width: 500px;
-        left: 210px;
+        left: 80px;
         top: 100px;
         #top {
             img {
