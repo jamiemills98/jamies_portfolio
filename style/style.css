@@ -911,6 +911,51 @@ body {
   }
 }
 
+@media screen and (min-width: 961px) {
+  .project_list {
+    color: white;
+    font-family: "Monstserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: black;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    left: 10px;
+    top: 120px;
+    z-index: -1;
+  }
+  .project_list img {
+    height: 400px;
+    width: 380px;
+    padding: 10px 260px;
+    border-bottom: 1px dashed white;
+  }
+  .project_list p {
+    padding: 10px 80px;
+  }
+  .project_list #project1 {
+    border-top: 1px dashed white;
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .table {
     color: black;

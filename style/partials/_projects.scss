@@ -67,3 +67,35 @@
         }
     }
 }
+
+// Web Styling 
+
+@media screen and (min-width:961px) {
+    .project_list {
+        @include font-settings($secondary-font-color, $secondary-font-family);
+        @include basic-flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: black;
+        width: 900px;
+        position: relative;
+        margin: 0 auto;
+        left: 10px;
+        top: 120px;
+        z-index: -1;
+
+        img {
+            height: 400px;
+            width: 380px;
+            padding: 10px 260px;
+            border-bottom: 1px dashed white;
+        }
+        p {
+            padding: 10px 80px;;
+        }
+        #project1 {
+            border-top: 1px dashed white;
+            margin-top: 10px;
+        }
+    }
+}
