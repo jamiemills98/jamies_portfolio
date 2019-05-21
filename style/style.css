@@ -815,7 +815,7 @@ body {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen {
   .table {
     color: black;
     font-family: "Monstserrat", sans-serif;
@@ -830,15 +830,17 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    font-size: 8px;
     position: relative;
     margin: 0 auto;
-    width: 260px;
-    left: 40px;
     padding-bottom: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    flex-wrap: wrap;
+    font: 13px;
   }
   .table h1 {
-    padding-top: 30px;
+    padding-top: 60px;
     border-bottom: 1px solid black;
   }
   .table p {
@@ -851,6 +853,17 @@ body {
   #work ul {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .table {
+    font-size: 8px;
+    width: 260px;
+    left: 40px;
+  }
+  .table h1 {
+    padding-top: 30px;
   }
   #references {
     min-width: 260px;
@@ -863,45 +876,9 @@ body {
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
   .table {
-    color: black;
-    font-family: "Monstserrat", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    flex-wrap: wrap;
-    font-size: 13px;
-    position: relative;
-    margin: 0 auto;
     top: 40px;
     width: 460px;
     left: 60px;
-    padding-bottom: 30px;
-  }
-  .table h1 {
-    padding-top: 60px;
-    border-bottom: 1px solid black;
-  }
-  .table p {
-    padding: 8px 1px;
-    border-bottom: 1px solid black;
-  }
-  #work h2 {
-    padding-top: 15px;
-  }
-  #work ul {
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
   }
   #references {
     min-width: 260px;
@@ -914,50 +891,14 @@ body {
 
 @media screen and (min-width: 961px) {
   .table {
-    color: black;
-    font-family: "Monstserrat", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    flex-wrap: wrap;
-    font-size: 13px;
-    position: relative;
-    margin: 0 auto;
     top: 20px;
     width: 460px;
     right: 270px;
-    padding-bottom: 30px;
-  }
-  .table h1 {
-    padding-top: 60px;
-    border-bottom: 1px solid black;
-  }
-  .table p {
-    padding: 8px 1px;
-    border-bottom: 1px solid black;
   }
   #work {
     position: relative;
     left: 530px;
     top: -478px;
-  }
-  #work h2 {
-    padding-top: 15px;
-  }
-  #work ul {
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
   }
   #references {
     position: relative;
