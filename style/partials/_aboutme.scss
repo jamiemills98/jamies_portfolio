@@ -81,7 +81,7 @@
     }
 }
 
-//Tablet Styling
+//Web Styling
 
 @media screen and (min-width: 961px) {
     .about_me {
@@ -100,7 +100,7 @@
             h2 {
                 position: relative;
                 font-size: 45px;
-                top: -400px;
+                top: -430px;
                 left: 420px;
             }
         }
@@ -108,7 +108,7 @@
             font-family: $secondary-font-family;
             font-size: 20px;
             position: relative;
-            top: -340px;
+            top: -400px;
             left: 420px;
             padding: 15px 0px;
             border-top: 1px solid black;
@@ -117,8 +117,8 @@
     }
 
     #about_foot {
-        position: relative;
-        top: 140px;
-        left: 600px;
+        @include basic-flex;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 }
