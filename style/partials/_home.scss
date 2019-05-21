@@ -18,7 +18,7 @@
         @include basic-flex;
         position: relative;
         margin:0 auto;
-        padding: 20px;
+        padding: 30px 20px 20px 20px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
@@ -58,7 +58,7 @@
     #quote {
         top: 100px;
         left: 40px;
-        font-size: 15px;
+        font-size: 25px;
         width: 200px;
     }
     #connect {
@@ -90,7 +90,7 @@
     #quote {
         top: 120px;
         left: 54px;
-        font-size: 25px;
+        font-size: 40px;
         width: 400px;
     }
 
@@ -124,18 +124,18 @@
     #quote {
         top: 80px;
         left: 40px;
-        font-size: 30px;
+        font-size: 50px;
         width: 800px;
     }
 
     #connect {
         top: 200px;
-        left: 102px;
-        width: 1300px;
+        left: 12px;
+        width: 1200px;
     }
 
     footer {
         top: 205px;
-        left: 1250px;
+        left: 1050px;
     }
 }
