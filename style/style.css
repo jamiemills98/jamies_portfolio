@@ -581,68 +581,7 @@ body {
   }
 }
 
-/* Mobile Styling */
-@media screen and (max-width: 450px) {
-  #header_socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  #header_socials img {
-    width: 30px;
-    height: 30px;
-    padding: 5px 3px;
-  }
-  .page_banner {
-    color: black;
-    font-family: "Lora", serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 260px;
-    height: 100px;
-    margin: 0 auto;
-    position: relative;
-    left: 30px;
-    border: 1px solid #1a1a1a;
-    -webkit-box-shadow: 3px 3px 3px #181818;
-            box-shadow: 3px 3px 3px #181818;
-    background-color: rgba(255, 255, 255, 0.178);
-  }
-  .page_banner p {
-    font-size: 30px;
-    text-align: center;
-    padding-top: 30px;
-  }
-}
-
-@media screen and (min-width: 451px) and (max-width: 960px) {
+@media screen {
   #header_socials {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -692,9 +631,6 @@ body {
             justify-content: center;
     position: relative;
     margin: 0 auto;
-    top: 10px;
-    left: 50px;
-    width: 560px;
     height: 140px;
     border: 1px solid #1a1a1a;
     -webkit-box-shadow: 3px 3px 3px #181818;
@@ -708,66 +644,34 @@ body {
   }
 }
 
-@media screen and (min-width: 961px) {
-  #header_socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
+/* Mobile Styling */
+@media screen and (max-width: 450px) {
   #header_socials img {
-    width: 50px;
-    height: 50px;
-    padding: 10px 6px;
+    width: 30px;
+    height: 30px;
+    padding: 5px 3px;
   }
   .page_banner {
-    color: black;
-    font-family: "Lora", serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: relative;
-    margin: 0 auto;
-    width: 1000px;
-    height: 130px;
-    border: 1px solid #1a1a1a;
-    -webkit-box-shadow: 3px 3px 3px #181818;
-            box-shadow: 3px 3px 3px #181818;
-    background-color: rgba(255, 255, 255, 0.178);
+    width: 260px;
+    height: 100px;
+    left: 30px;
   }
   .page_banner p {
-    font-size: 65px;
-    text-align: center;
-    padding-top: 20px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .page_banner {
+    top: 10px;
+    left: 50px;
+    width: 560px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .page_banner {
+    width: 1000px;
   }
 }
 
