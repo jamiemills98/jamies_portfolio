@@ -80,3 +80,45 @@
         left: 600px;
     }
 }
+
+//Tablet Styling
+
+@media screen and (min-width: 961px) {
+    .about_me {
+        @include basic-flex;
+        @include font-settings();
+        position: relative;
+        margin: 0 auto;
+        width: 500px;
+        right: 200px;
+        top: 100px;
+        #top {
+            img {
+                width: 400px;
+                height: 400px;
+                }
+            h2 {
+                position: relative;
+                font-size: 45px;
+                top: -400px;
+                left: 420px;
+            }
+        }
+        p {
+            font-family: $secondary-font-family;
+            font-size: 20px;
+            position: relative;
+            top: -340px;
+            left: 420px;
+            padding: 15px 0px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    }
+
+    #about_foot {
+        position: relative;
+        top: 140px;
+        left: 600px;
+    }
+}

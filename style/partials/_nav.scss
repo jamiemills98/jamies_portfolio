@@ -32,7 +32,7 @@ div.border a:hover:before, div.border a:hover:after {
 
 header {
     nav {
-        position: relative;
+        position: absolute;
     }
     .border {
         @include basic-flex;
