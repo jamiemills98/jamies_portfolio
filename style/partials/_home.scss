@@ -1,36 +1,48 @@
-//Mobile Styling
-@media screen and (max-width:450px) {
+// General Styling
+@media screen {
     .main_banner {
         @include font-settings();
         @include basic-flex;
         position: relative;
         margin: 0 auto;
-        width: 280px;
-        left: 40px;
-        top: 20px;
         border: 1px solid rgb(26, 26, 26);
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
-
+        justify-content: center;
         p {
             @include font-settings();
-            font-size: 40px;
             padding: 50px 30px;
+        }
+    }
+    #quote {
+        @include basic-flex;
+        position: relative;
+        margin:0 auto;
+        padding: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+}
+
+//Mobile Styling
+@media screen and (max-width:450px) {
+    .main_banner {
+        width: 280px;
+        left: 40px;
+        top: 20px;
+
+        p {
+            font-size: 40px;
         }
         
     }
 
     #quote {
-        @include basic-flex;
-        position: relative;
-        margin: 0 auto;
         top: 100px;
         left: 40px;
         font-size: 15px;
         width: 200px;
-        padding: 20px;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
     }
 
     #connect {
@@ -67,37 +79,21 @@
 
 @media screen and (min-width: 451px) and (max-width:960px) {
     .main_banner {
-        @include font-settings();
-        @include basic-flex;
-        justify-content: center;
-        position: relative;
-        margin: 0 auto;
         left: 50px;
         top: 10px;
         width: 550px;
-        border: 1px solid rgb(26, 26, 26);
-        box-shadow: 3px 3px 3px rgb(24, 24, 24);
-        background-color: rgba(255, 255, 255, 0.178);
 
         p {
-            @include font-settings();
             font-size: 70px;
-            padding: 50px 30px;
         }
         
     }
 
     #quote {
-        @include basic-flex;
-        position: relative;
-        margin: 0 auto;
         top: 120px;
         left: 54px;
         font-size: 25px;
         width: 400px;
-        padding: 20px;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
     }
 
     #connect {
@@ -134,18 +130,9 @@
 //Web Styling
 @media screen and (min-width:961px) {
     .main_banner {
-        @include basic-flex;
-        justify-content: center;
-        position: relative;
-        margin: 0 auto;
         width: 1200px;
         height: 180px;
-        border: 1px solid rgb(26, 26, 26);
-        box-shadow: 3px 3px 3px rgb(24, 24, 24);
-        background-color: rgba(255, 255, 255, 0.178);
-
         p {
-            @include font-settings();
             font-size: 80px;
             padding: 20px;
         }
@@ -153,16 +140,10 @@
     }
 
     #quote {
-        @include basic-flex;
-        position: relative;
-        margin:0 auto;
         top: 80px;
         left: 40px;
         font-size: 30px;
         width: 800px;
-        padding: 20px;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
     }
 
     #connect {

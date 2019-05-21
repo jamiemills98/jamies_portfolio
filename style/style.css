@@ -98,7 +98,7 @@ header a {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen {
   .main_banner {
     color: black;
     font-family: "Lora", serif;
@@ -115,18 +115,17 @@ header a {
             align-items: flex-start;
     position: relative;
     margin: 0 auto;
-    width: 280px;
-    left: 40px;
-    top: 20px;
     border: 1px solid #1a1a1a;
     -webkit-box-shadow: 3px 3px 3px #181818;
             box-shadow: 3px 3px 3px #181818;
     background-color: rgba(255, 255, 255, 0.178);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main_banner p {
     color: black;
     font-family: "Lora", serif;
-    font-size: 40px;
     padding: 50px 30px;
   }
   #quote {
@@ -143,13 +142,26 @@ header a {
             align-items: flex-start;
     position: relative;
     margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main_banner {
+    width: 280px;
+    left: 40px;
+    top: 20px;
+  }
+  .main_banner p {
+    font-size: 40px;
+  }
+  #quote {
     top: 100px;
     left: 40px;
     font-size: 15px;
     width: 200px;
-    padding: 20px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
   }
   #connect {
     display: -webkit-box;
@@ -205,59 +217,18 @@ header a {
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
   .main_banner {
-    color: black;
-    font-family: "Lora", serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: relative;
-    margin: 0 auto;
     left: 50px;
     top: 10px;
     width: 550px;
-    border: 1px solid #1a1a1a;
-    -webkit-box-shadow: 3px 3px 3px #181818;
-            box-shadow: 3px 3px 3px #181818;
-    background-color: rgba(255, 255, 255, 0.178);
   }
   .main_banner p {
-    color: black;
-    font-family: "Lora", serif;
     font-size: 70px;
-    padding: 50px 30px;
   }
   #quote {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: relative;
-    margin: 0 auto;
     top: 120px;
     left: 54px;
     font-size: 25px;
     width: 400px;
-    padding: 20px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
   }
   #connect {
     display: -webkit-box;
@@ -313,56 +284,18 @@ header a {
 
 @media screen and (min-width: 961px) {
   .main_banner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: relative;
-    margin: 0 auto;
     width: 1200px;
     height: 180px;
-    border: 1px solid #1a1a1a;
-    -webkit-box-shadow: 3px 3px 3px #181818;
-            box-shadow: 3px 3px 3px #181818;
-    background-color: rgba(255, 255, 255, 0.178);
   }
   .main_banner p {
-    color: black;
-    font-family: "Lora", serif;
     font-size: 80px;
     padding: 20px;
   }
   #quote {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: relative;
-    margin: 0 auto;
     top: 80px;
     left: 40px;
     font-size: 30px;
     width: 800px;
-    padding: 20px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
   }
   #connect {
     display: -webkit-box;
