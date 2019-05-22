@@ -10,35 +10,36 @@
     h2 {
         position: relative;
     }
-    #about_foot {
-        @include basic-flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+    // #about_foot {
+    //     @include basic-flex;
+    //     flex-direction: row;
+    //     justify-content: flex-end;
+    // }
 }
 
 // Mobile Styling
 @media screen and (max-width:450px){
     .about_me {
-        top: 30px;
-        left: 30px;
-        width: 250px;
+        top: 5vh;
+        left: 10vw;
+        width: 60vw;
         #top {
             img {
-                width: 140px;
-                height: 140px;
+                width: 34vw;
+                height: 20vh;
                 }
             h2 {
                 font-size: 20px;
-                top: -100px;
-                left: 150px;
+                top: -12vh;
+                left: 36vw;
             }
         }
         p {
             font-family: $secondary-font-family;
             font-size: 12px;
             position: relative;
-            top: -50px;
+            left: 2vw;
+            top: -6vh;
             padding: 15px 0px;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
@@ -47,8 +48,8 @@
 
     #about_foot {
         justify-content: center;
-        top: 30px;
-        left: 50px;
+        top: 8vh;
+        left: 50vw;
     }
 }
 
@@ -56,25 +57,25 @@
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
     .about_me {
-        width: 500px;
-        left: 80px;
-        top: 100px;
+        width: 50vw;
+        top: 10vh;
         #top {
             img {
-                width: 240px;
-                height: 240px;
+                width: 35vw;
+                height: 40vh;
                 }
             h2 {
                 font-size: 40px;
-                top: -190px;
-                left: 250px;
+                top: -25vh;
+                left: 37vw;
             }
         }
         p {
             font-family: $secondary-font-family;
             font-size: 20px;
             position: relative;
-            top: -120px;
+            top: -15vh;
+            width: 60vw;
             padding: 15px 0px;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
@@ -86,26 +87,26 @@
 
 @media screen and (min-width: 961px) {
     .about_me {
-        width: 500px;
-        right: 200px;
-        top: 100px;
+        left:12vw;
+        width: 70vw;
+        top: 10vh;
         #top {
             img {
-                width: 400px;
-                height: 400px;
+                width: 350px;
+                height: 350px;
                 }
             h2 {
                 font-size: 45px;
-                top: -430px;
-                left: 420px;
+                top: -28vh;
+                left: 25vw;
             }
         }
         p {
             font-family: $secondary-font-family;
-            font-size: 20px;
+            font-size: 25px;
             position: relative;
-            top: -400px;
-            left: 420px;
+            top: -20vh;
+            right: 12vw;
             padding: 15px 0px;
             border-top: 1px solid black;
             border-bottom: 1px solid black;

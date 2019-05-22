@@ -123,6 +123,8 @@ header a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .main_banner h1 {
     color: black;
@@ -142,6 +144,9 @@ header a {
         -ms-flex-align: start;
             align-items: flex-start;
     position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
     padding: 30px 20px 20px 20px;
     border-top: 1px solid black;
@@ -196,116 +201,80 @@ header a {
 
 @media screen and (max-width: 450px) {
   .main_banner {
-    width: 280px;
-    left: 40px;
-    top: 20px;
+    width: 70vw;
+    height: 20vh;
+    left: 8vw;
+    top: 1vh;
   }
   .main_banner h1 {
     font-size: 40px;
   }
   #quote {
-    top: 100px;
-    left: 40px;
-    font-size: 25px;
-    width: 200px;
+    top: 10vh;
+    left: 10vw;
+    font-size: 20px;
+    width: 50vw;
   }
   #connect {
-    top: 200px;
-    left: 42px;
-    max-width: 300px;
+    top: 20vh;
+    left: 10vw;
+    width: 80vw;
   }
   footer {
-    top: 240px;
-    left: 75px;
+    top: 35vh;
+    left: 55vw;
   }
 }
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
   .main_banner {
-    left: 50px;
-    top: 10px;
-    width: 550px;
+    left: 5vw;
+    top: 2vh;
+    width: 80vw;
   }
   .main_banner h1 {
     font-size: 70px;
   }
   #quote {
-    top: 120px;
-    left: 54px;
+    top: 15vh;
+    left: 5vw;
     font-size: 40px;
-    width: 400px;
+    width: 70vw;
   }
   #connect {
-    top: 220px;
-    left: 62px;
-    width: 650px;
+    top: 35vh;
+    left: 5vw;
+    width: 85vw;
   }
   footer {
-    top: 300px;
-    left: 620px;
+    top: 36vh;
+    left: 80vw;
   }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1500px) {
+@media screen and (min-width: 961px) {
   .main_banner {
-    width: 1200px;
-    height: 180px;
+    width: 80vw;
+    height: 25vh;
   }
   .main_banner h1 {
     font-size: 80px;
     padding: 20px;
   }
   #quote {
-    top: 80px;
-    left: 40px;
+    top: 15vh;
     font-size: 35px;
-    width: 900px;
+    width: 100vw;
   }
   #connect {
-    top: 250px;
-    left: 12px;
+    top: 35vh;
     -ms-flex-line-pack: end;
         align-content: flex-end;
-    width: 1200px;
+    width: 100vw;
   }
   footer {
-    top: 255px;
-    left: 1050px;
-  }
-}
-
-@media screen and (min-width: 1501px) {
-  .main_banner {
-    width: 1200px;
-    height: 180px;
-  }
-  .main_banner h1 {
-    font-size: 80px;
-    padding: 20px;
-  }
-  #quote {
-    top: 180px;
-    left: 40px;
-    font-size: 45px;
-    width: 1200px;
-  }
-  #connect {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-line-pack: end;
-        align-content: flex-end;
-    width: 1600px;
-    top: 400px;
-    left: 32px;
-    font-size: 20px;
-  }
-  footer {
-    -ms-flex-line-pack: end;
-        align-content: flex-end;
-    top: 425px;
-    left: 1300px;
+    top: 36vh;
+    left: 85vw;
   }
 }
 
@@ -330,48 +299,29 @@ header a {
   h2 {
     position: relative;
   }
-  #about_foot {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .about_me {
-    top: 30px;
-    left: 30px;
-    width: 250px;
+    top: 5vh;
+    left: 10vw;
+    width: 60vw;
   }
   .about_me #top img {
-    width: 140px;
-    height: 140px;
+    width: 34vw;
+    height: 20vh;
   }
   .about_me #top h2 {
     font-size: 20px;
-    top: -100px;
-    left: 150px;
+    top: -12vh;
+    left: 36vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
     font-size: 12px;
     position: relative;
-    top: -50px;
+    left: 2vw;
+    top: -6vh;
     padding: 15px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -380,31 +330,31 @@ header a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    top: 30px;
-    left: 50px;
+    top: 8vh;
+    left: 50vw;
   }
 }
 
 @media screen and (min-width: 451px) and (max-width: 960px) {
   .about_me {
-    width: 500px;
-    left: 80px;
-    top: 100px;
+    width: 50vw;
+    top: 10vh;
   }
   .about_me #top img {
-    width: 240px;
-    height: 240px;
+    width: 35vw;
+    height: 40vh;
   }
   .about_me #top h2 {
     font-size: 40px;
-    top: -190px;
-    left: 250px;
+    top: -25vh;
+    left: 37vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
     font-size: 20px;
     position: relative;
-    top: -120px;
+    top: -15vh;
+    width: 60vw;
     padding: 15px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -413,25 +363,25 @@ header a {
 
 @media screen and (min-width: 961px) {
   .about_me {
-    width: 500px;
-    right: 200px;
-    top: 100px;
+    left: 12vw;
+    width: 70vw;
+    top: 10vh;
   }
   .about_me #top img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   .about_me #top h2 {
     font-size: 45px;
-    top: -430px;
-    left: 420px;
+    top: -28vh;
+    left: 25vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
-    top: -400px;
-    left: 420px;
+    top: -20vh;
+    right: 12vw;
     padding: 15px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;

@@ -9,6 +9,7 @@
         box-shadow: 3px 3px 3px rgb(24, 24, 24);
         background-color: rgba(255, 255, 255, 0.178);
         justify-content: center;
+        align-content: center;
         h1 {
             @include font-settings();
             padding: 50px 30px;
@@ -17,6 +18,7 @@
     #quote {
         @include basic-flex;
         position: relative;
+        justify-content: center;
         margin:0 auto;
         padding: 30px 20px 20px 20px;
         border-top: 1px solid black;
@@ -48,28 +50,29 @@
 //Mobile Styling
 @media screen and (max-width:450px) {
     .main_banner {
-        width: 280px;
-        left: 40px;
-        top: 20px;
+        width: 70vw;
+        height: 20vh;
+        left: 8vw;
+        top: 1vh;
         h1 {
             font-size: 40px;
         }
     }
     #quote {
-        top: 100px;
-        left: 40px;
-        font-size: 25px;
-        width: 200px;
+        top: 10vh;
+        left: 10vw;
+        font-size: 20px;
+        width: 50vw;
     }
     #connect {
-        top: 200px;
-        left: 42px;
-        max-width: 300px;
+        top: 20vh;
+        left: 10vw;
+        width: 80vw;
     }
 
     footer {
-        top: 240px;
-        left: 75px;
+        top: 35vh;
+        left: 55vw;
     }
 }
 
@@ -77,9 +80,9 @@
 
 @media screen and (min-width: 451px) and (max-width:960px) {
     .main_banner {
-        left: 50px;
-        top: 10px;
-        width: 550px;
+        left: 5vw;
+        top: 2vh;
+        width: 80vw;
 
         h1 {
             font-size: 70px;
@@ -87,32 +90,30 @@
     }
 
     #quote {
-        top: 120px;
-        left: 54px;
+        top: 15vh;
+        left: 5vw;
         font-size: 40px;
-        width: 400px;
+        width: 70vw;
     }
 
     #connect {
-        top: 220px;
-        left: 62px;
-        width: 650px;
+        top: 35vh;
+        left: 5vw;
+        width: 85vw;
     }
 
     footer {
-        // @include basic-flex;
-        // position: relative;
-        top: 300px;
-        left: 620px;
+        top: 36vh;
+        left: 80vw;
     }
 }
 
 
 //Web Styling
-@media screen and (min-width:961px) and (max-width: 1500px) {
+@media screen and (min-width:961px) {
     .main_banner {
-        width: 1200px;
-        height: 180px;
+        width: 80vw;
+        height: 25vh;
         h1 {
             font-size: 80px;
             padding: 20px;
@@ -120,57 +121,55 @@
     }
 
     #quote {
-        top: 80px;
-        left: 40px;
+        top: 15vh;
         font-size: 35px;
-        width: 900px;
+        width: 100vw;
     }
 
     #connect {
-        top: 250px;
-        left: 12px;
+        top: 35vh;
         align-content: flex-end;
-        width: 1200px;
+        width: 100vw;
     }
 
     footer {
-        top: 255px;
-        left: 1050px;
+        top: 36vh;
+        left: 85vw;
     }
 }
 
 // Bigger screen styling
 
-@media screen and (min-width:1501px) {
-    .main_banner {
-        width: 1200px;
-        height: 180px;
-        h1 {
-            font-size: 80px;
-            padding: 20px;
-        }
+// @media screen and (min-width:1501px) {
+//     .main_banner {
+//         width: 1200px;
+//         height: 180px;
+//         h1 {
+//             font-size: 80px;
+//             padding: 20px;
+//         }
         
-    }
+//     }
 
-    #quote {
-        top: 180px;
-        left: 40px;
-        font-size: 45px;
-        width: 1200px;
-    }
+//     #quote {
+//         top: 180px;
+//         left: 40px;
+//         font-size: 45px;
+//         width: 1200px;
+//     }
 
-    #connect {
-        flex-direction: row;
-        align-content: flex-end;
-        width: 1600px;
-        top: 400px;
-        left: 32px;
-        font-size: 20px;
-    }
+//     #connect {
+//         flex-direction: row;
+//         align-content: flex-end;
+//         width: 1600px;
+//         top: 400px;
+//         left: 32px;
+//         font-size: 20px;
+//     }
 
-    footer {
-        align-content: flex-end;
-        top: 425px;
-        left: 1300px;
-    }
-}
+//     footer {
+//         align-content: flex-end;
+//         top: 425px;
+//         left: 1300px;
+//     }
+// }
