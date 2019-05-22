@@ -57,24 +57,34 @@ Moodboard:
 ### Wireframes
 Original Wireframes:
 
-- iphone/mobile - 
+####Iphone/mobile - 
+- Home Page
+![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1") 
 
-![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1") ![design-wireframes2](docs/aboutmemobile.png "portfolio-wireframe2")
+- About Me Page
+![design-wireframes2](docs/aboutmemobile.png "portfolio-wireframe2")
 
+####Web - 
+- Home Page
+![design-wireframes3](docs/homeweb.png "portfolio-wireframe3") 
 
-- Web - 
-
-![design-wireframes3](docs/homeweb.png "portfolio-wireframe3") ![design-wireframes4](docs/aboutmeweb.png "portfolio-wireframe4")
+-About Me Page
+![design-wireframes4](docs/aboutmeweb.png "portfolio-wireframe4")
 
 Wireframes after design change: 
 
-- iphone/mobile
+####Iphone/mobile
+- Home Page
+![design-wireframes5](docs/homemobile2.png "portfolio-wireframe5") 
 
-![design-wireframes5](docs/homemobile2.png "portfolio-wireframe5") ![design-wireframes6](docs/aboutmemobile2.png "portfolio-wireframe6")
+- About Me Page
+![design-wireframes6](docs/aboutmemobile2.png "portfolio-wireframe6")
 
-- Web -
-
-![design-wireframes7](docs/homeweb2.png "portfolio-wireframe7") ![design-wireframes8](docs/aboutmeweb2.png "portfolio-wireframe8")
+####Web -
+- Home Page
+![design-wireframes7](docs/homeweb2.png "portfolio-wireframe7") 
+-About Me Page
+![design-wireframes8](docs/aboutmeweb2.png "portfolio-wireframe8")
 
 
 
