@@ -59,7 +59,7 @@ Original Wireframes:
 
 - iphone/mobile - 
 
-![design-wireframes1](docs/trello_boards/iphonehome.png "portfolio-wireframe1")
+![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1")
 
 ![design-wireframes2](docs/trello_boards/aboutmemobile.png "portfolio-wireframe2")
 
