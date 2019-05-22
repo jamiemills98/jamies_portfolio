@@ -129,7 +129,7 @@ header a {
   .main_banner h1 {
     color: black;
     font-family: "Lora", serif;
-    padding: 50px 30px;
+    padding: 5vh 3vw;
   }
   #quote {
     display: -webkit-box;
@@ -315,20 +315,20 @@ header a {
     width: 60vw;
   }
   .about_me #top img {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
   }
   .about_me #top h2 {
     font-size: 20px;
-    top: -12vh;
-    left: 36vw;
+    top: -14vh;
+    left: 35vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
     font-size: 12px;
     position: relative;
     left: 2vw;
-    top: -6vh;
+    top: -8vh;
     padding: 15px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -347,20 +347,20 @@ header a {
     width: 50vw;
     top: 10vh;
   }
-  .about_me #top img {
-    width: 35vw;
-    height: 40vh;
+  .about_me img {
+    width: 30vw;
+    height: auto;
   }
   .about_me #top h2 {
     font-size: 40px;
-    top: -25vh;
-    left: 37vw;
+    top: -15vh;
+    left: 35vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
     font-size: 20px;
     position: relative;
-    top: -15vh;
+    top: -10vh;
     width: 60vw;
     padding: 15px 0px;
     border-top: 1px solid black;
@@ -370,26 +370,53 @@ header a {
 
 @media screen and (min-width: 961px) {
   .about_me {
-    left: 12vw;
+    left: 10vw;
     width: 70vw;
     top: 10vh;
   }
-  .about_me #top img {
-    width: 350px;
-    height: 350px;
+  .about_me img {
+    width: 30vw;
+    height: auto;
   }
   .about_me #top h2 {
     font-size: 45px;
-    top: -28vh;
-    left: 25vw;
+    top: -32vh;
+    left: 35vw;
   }
   .about_me p {
     font-family: "Monstserrat", sans-serif;
     font-size: 25px;
     position: relative;
     top: -20vh;
-    right: 12vw;
-    padding: 15px 0px;
+    right: 8vw;
+    padding: 15vh 0vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .about_me {
+    left: 15vw;
+    width: 70vw;
+    top: 10vh;
+  }
+  .about_me img {
+    width: 20vw;
+    height: auto;
+  }
+  .about_me #top h2 {
+    font-size: 55px;
+    top: -20vh;
+    left: 22vw;
+  }
+  .about_me p {
+    font-family: "Monstserrat", sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -10vh;
+    right: 8vw;
+    padding: 10vh 0vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
@@ -652,6 +679,9 @@ body {
     padding: 8px 1px;
     border-bottom: 1px solid black;
   }
+  #work {
+    margin-left: 10px;
+  }
   #work h2 {
     padding-top: 15px;
   }
@@ -665,7 +695,7 @@ body {
   .table {
     font-size: 8px;
     width: 260px;
-    left: 40px;
+    left: 45px;
   }
   .table h1 {
     padding-top: 30px;

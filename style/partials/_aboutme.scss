@@ -25,13 +25,13 @@
         width: 60vw;
         #top {
             img {
-                width: 120px;
-                height: 120px;
+                width: 110px;
+                height: 110px;
                 }
             h2 {
                 font-size: 20px;
-                top: -12vh;
-                left: 36vw;
+                top: -14vh;
+                left: 35vw;
             }
         }
         p {
@@ -39,7 +39,7 @@
             font-size: 12px;
             position: relative;
             left: 2vw;
-            top: -6vh;
+            top: -8vh;
             padding: 15px 0px;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
@@ -59,22 +59,22 @@
     .about_me {
         width: 50vw;
         top: 10vh;
+        img {
+            width: 30vw;
+            height: auto;
+            }
         #top {
-            img {
-                width: 35vw;
-                height: 40vh;
-                }
             h2 {
                 font-size: 40px;
-                top: -25vh;
-                left: 37vw;
+                top: -15vh;
+                left: 35vw;
             }
         }
         p {
             font-family: $secondary-font-family;
             font-size: 20px;
             position: relative;
-            top: -15vh;
+            top: -10vh;
             width: 60vw;
             padding: 15px 0px;
             border-top: 1px solid black;
@@ -87,18 +87,18 @@
 
 @media screen and (min-width: 961px) {
     .about_me {
-        left:12vw;
+        left:10vw;
         width: 70vw;
         top: 10vh;
+        img {
+            width: 30vw;
+            height: auto;
+            }
         #top {
-            img {
-                width: 350px;
-                height: 350px;
-                }
             h2 {
                 font-size: 45px;
-                top: -28vh;
-                left: 25vw;
+                top: -32vh;
+                left: 35vw;
             }
         }
         p {
@@ -106,8 +106,37 @@
             font-size: 25px;
             position: relative;
             top: -20vh;
-            right: 12vw;
-            padding: 15px 0px;
+            right: 8vw;
+            padding: 15vh 0vw;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+//any bigger screens
+@media screen and (min-width:1401px) {
+    .about_me {
+        left:15vw;
+        width: 70vw;
+        top: 10vh;
+        img {
+            width: 20vw;
+            height: auto;
+            }
+        #top {
+            h2 {
+                font-size: 55px;
+                top: -20vh;
+                left: 22vw;
+            }
+        }
+        p {
+            font-family: $secondary-font-family;
+            font-size: 35px;
+            position: relative;
+            top: -10vh;
+            right: 8vw;
+            padding: 10vh 0vw;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
         }
