@@ -147,8 +147,10 @@ header a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0 auto;
-    padding: 30px 20px 20px 20px;
+    padding: 30px 20px 20px 50px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
@@ -193,6 +195,11 @@ header a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
     position: relative;
     font-size: 10px;
     width: 200px;
@@ -201,24 +208,24 @@ header a {
 
 @media screen and (max-width: 450px) {
   .main_banner {
-    width: 70vw;
+    width: 80vw;
     height: 20vh;
-    left: 8vw;
+    left: 14vw;
     top: 1vh;
   }
   .main_banner h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   #quote {
     top: 10vh;
-    left: 10vw;
+    left: 14vw;
     font-size: 20px;
     width: 50vw;
   }
   #connect {
-    top: 20vh;
-    left: 10vw;
-    width: 80vw;
+    top: 22vh;
+    left: 20vw;
+    width: 95vw;
   }
   footer {
     top: 35vh;
@@ -308,8 +315,8 @@ header a {
     width: 60vw;
   }
   .about_me #top img {
-    width: 34vw;
-    height: 20vh;
+    width: 120px;
+    height: 120px;
   }
   .about_me #top h2 {
     font-size: 20px;

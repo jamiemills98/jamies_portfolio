@@ -19,8 +19,9 @@
         @include basic-flex;
         position: relative;
         justify-content: center;
+        align-content: center;
         margin:0 auto;
-        padding: 30px 20px 20px 20px;
+        padding: 30px 20px 20px 50px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
@@ -41,8 +42,10 @@
     }
     footer {
         @include basic-flex;
+        justify-content: flex-end;
+        align-content: flex-end;
         position: relative;
-        font-size: 10px;
+        font-size: 10px;    
         width: 200px;
     }
 }
@@ -50,24 +53,24 @@
 //Mobile Styling
 @media screen and (max-width:450px) {
     .main_banner {
-        width: 70vw;
+        width: 80vw;
         height: 20vh;
-        left: 8vw;
+        left: 14vw;
         top: 1vh;
         h1 {
-            font-size: 40px;
+            font-size: 35px;
         }
     }
     #quote {
         top: 10vh;
-        left: 10vw;
+        left: 14vw;
         font-size: 20px;
         width: 50vw;
     }
     #connect {
-        top: 20vh;
-        left: 10vw;
-        width: 80vw;
+        top: 22vh;
+        left: 20vw;
+        width: 95vw;
     }
 
     footer {
