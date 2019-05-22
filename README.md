@@ -1,9 +1,9 @@
 # Jamie Mills Portfolio
 
 ### Published portfolio website URL
-* (URL)
+* https://jamiemills98.github.io/jamies_portfolio/
 ### link to GitHub repository
-* (LINK)
+* https://github.com/jamiemills98/jamies_portfolio
 _________________________________________________________________________________________________________
 
 ## About This Website
