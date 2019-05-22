@@ -51,25 +51,36 @@ I was then inspired to change my nav bar after starting. I changed it to be a si
 I choose my background to imitate a pastel sunset. My text colours were left black and white depending on background so it is easier to read and nice to look at (too many colours could overwhelm the user). My text fonts are in the sans serif family as they are easy to read. I also chose to have a slightly lighter background on my header/titles to seperate it from the background.
 
 Moodboard: 
+
 ![design-moodboard](docs/portfoliomood.png "portfolio-moodboard")
 
 ### Wireframes
 Original Wireframes:
 
 iphone/mobile - 
+
 ![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1")
+
 ![design-wireframes2](docs/aboutmemobile.png "portfolio-wireframe2")
+
 Web - 
+
 ![design-wireframes3](docs/homeweb.png "portfolio-wireframe3")
+
 ![design-wireframes4](docs/aboutmeweb.png "portfolio-wireframe4")
 
 Wireframes after design change: 
 
 iphone/mobile
+
 ![design-wireframes5](docs/homemobile2.png "portfolio-wireframe5")
+
 ![design-wireframes6](docs/aboutmemobile2.png "portfolio-wireframe6")
+
 Web -
+
 ![design-wireframes7](docs/homeweb2.png "portfolio-wireframe7")
+
 ![design-wireframes8](docs/aboutmeweb2.png "portfolio-wireframe8")
 
 
