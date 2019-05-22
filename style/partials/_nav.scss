@@ -42,6 +42,7 @@ header {
         flex-direction: column;
         background-color: black;
         opacity: 0.86;
+        z-index: 1;
     }
     a {
         @include font-settings($secondary-font-color, $primary-font-family);
