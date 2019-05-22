@@ -123,7 +123,7 @@ header a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .main_banner p {
+  .main_banner h1 {
     color: black;
     font-family: "Lora", serif;
     padding: 50px 30px;
@@ -199,7 +199,7 @@ header a {
     left: 40px;
     top: 20px;
   }
-  .main_banner p {
+  .main_banner h1 {
     font-size: 40px;
   }
   #quote {
@@ -225,7 +225,7 @@ header a {
     top: 10px;
     width: 550px;
   }
-  .main_banner p {
+  .main_banner h1 {
     font-size: 70px;
   }
   #quote {
@@ -250,7 +250,7 @@ header a {
     width: 1200px;
     height: 180px;
   }
-  .main_banner p {
+  .main_banner h1 {
     font-size: 80px;
     padding: 20px;
   }
