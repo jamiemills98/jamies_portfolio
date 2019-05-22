@@ -245,7 +245,7 @@ header a {
   }
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 961px) and (max-width: 1500px) {
   .main_banner {
     width: 1200px;
     height: 180px;
@@ -263,11 +263,48 @@ header a {
   #connect {
     top: 250px;
     left: 12px;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
     width: 1200px;
   }
   footer {
     top: 255px;
     left: 1050px;
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  .main_banner {
+    width: 1200px;
+    height: 180px;
+  }
+  .main_banner p {
+    font-size: 80px;
+    padding: 20px;
+  }
+  #quote {
+    top: 180px;
+    left: 40px;
+    font-size: 45px;
+    width: 1200px;
+  }
+  #connect {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    width: 1600px;
+    top: 400px;
+    left: 32px;
+    font-size: 20px;
+  }
+  footer {
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    top: 425px;
+    left: 1300px;
   }
 }
 

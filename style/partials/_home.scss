@@ -110,7 +110,7 @@
 
 
 //Web Styling
-@media screen and (min-width:961px) {
+@media screen and (min-width:961px) and (max-width: 1500px) {
     .main_banner {
         width: 1200px;
         height: 180px;
@@ -131,11 +131,48 @@
     #connect {
         top: 250px;
         left: 12px;
+        align-content: flex-end;
         width: 1200px;
     }
 
     footer {
         top: 255px;
         left: 1050px;
+    }
+}
+
+// Bigger screen styling
+
+@media screen and (min-width:1501px) {
+    .main_banner {
+        width: 1200px;
+        height: 180px;
+        p {
+            font-size: 80px;
+            padding: 20px;
+        }
+        
+    }
+
+    #quote {
+        top: 180px;
+        left: 40px;
+        font-size: 45px;
+        width: 1200px;
+    }
+
+    #connect {
+        flex-direction: row;
+        align-content: flex-end;
+        width: 1600px;
+        top: 400px;
+        left: 32px;
+        font-size: 20px;
+    }
+
+    footer {
+        align-content: flex-end;
+        top: 425px;
+        left: 1300px;
     }
 }
