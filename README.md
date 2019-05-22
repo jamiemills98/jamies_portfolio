@@ -56,8 +56,21 @@ Moodboard:
 ### Wireframes
 Original Wireframes:
 
+iphone/mobile - 
+![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1")
+![design-wireframes2](docs/aboutmemobile.png "portfolio-wireframe2")
+Web - 
+![design-wireframes3](docs/homeweb.png "portfolio-wireframe3")
+![design-wireframes4](docs/aboutmeweb.png "portfolio-wireframe4")
 
 Wireframes after design change: 
+
+iphone/mobile
+![design-wireframes5](docs/homemobile2.png "portfolio-wireframe5")
+![design-wireframes6](docs/aboutmemobile2.png "portfolio-wireframe6")
+Web -
+![design-wireframes7](docs/homeweb2.png "portfolio-wireframe7")
+![design-wireframes8](docs/aboutmeweb2.png "portfolio-wireframe8")
 
 
 
