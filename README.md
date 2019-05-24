@@ -58,7 +58,7 @@ Moodboard:
 ### Original Wireframes:
 
 #### Iphone/mobile 
-#### Home Page
+##### Home Page
 ![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1") 
 
 ##### About Me Page
