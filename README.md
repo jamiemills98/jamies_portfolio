@@ -55,36 +55,36 @@ Moodboard:
 ![design-moodboard](docs/portfoliomood.png "portfolio-moodboard")
 
 ## Wireframes
-###Original Wireframes:
+### Original Wireframes:
 
-####Iphone/mobile 
-#####Home Page
+#### Iphone/mobile 
+#### Home Page
 ![design-wireframes1](docs/iphonehome.png "portfolio-wireframe1") 
 
-#####About Me Page
+##### About Me Page
 ![design-wireframes2](docs/aboutmemobile.png "portfolio-wireframe2")
 
-####Web 
-#####Home Page
+#### Web 
+##### Home Page
 ![design-wireframes3](docs/homeweb.png "portfolio-wireframe3") 
 
-#####About Me Page
+##### About Me Page
 ![design-wireframes4](docs/aboutmeweb.png "portfolio-wireframe4")
 
-###Wireframes after design change: 
+### Wireframes after design change: 
 
-####Iphone/mobile
-#####Home Page
+#### Iphone/mobile
+##### Home Page
 ![design-wireframes5](docs/homemobile2.png "portfolio-wireframe5") 
 
-#####About Me Page
+##### About Me Page
 ![design-wireframes6](docs/aboutmemobile2.png "portfolio-wireframe6")
 
-####Web 
-#####Home Page
+#### Web 
+##### Home Page
 ![design-wireframes7](docs/homeweb2.png "portfolio-wireframe7") 
 
-#####About Me Page
+##### About Me Page
 ![design-wireframes8](docs/aboutmeweb2.png "portfolio-wireframe8")
 
 
