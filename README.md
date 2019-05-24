@@ -137,15 +137,22 @@ My usability considerations included:
 
 ## Questions (Short Answers)
 
-### Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-In 1980 Radia Perlman designs Intermediate System IS-S, the protocol for IP routing. In 1983 The Domain Name System (DNS) is created, so we can enter in a domain instead of long IP addresses. In 1985 Symbolics Computer Corp. becomes the first registered domain name. In 1989 Sir Tim Berners-Lee, invents the world wide web, 1 year after he then creates three technologies still used today: HyperText Markup Language (HTML), Uniform Resource Identifier (URI, more commonly known as URL) and Hypertext Transfer Protocol (HTTP). In 1994 Microsoft developes windows 95 a consumer-oriented operating system. 1995 Big marketplaces such as Amazon and Ebay, begin creating more appeal to be on the web. 1998 is when web publishing tools became available, this started off a popularity of writing blogs and allowing people more of a chance to connect on the web. Advertisements then started popping up and gaining traction in the early 2000's. 2004 - 2006 is when facebook, youtube and twitter get started, this invites everyday people to become part of the web and interact with each other in an easier way. Soon after many popular social medias etc. started, creating a must for people everywhere to be included and connected with each other. 
+### Describe key events in the development of the internet from the 1980s to today 
+- In 1980 Radia Perlman designs Intermediate System IS-S, the protocol for IP routing. 
+- In 1983 The Domain Name System (DNS) is created, so we can enter in a domain instead of long IP addresses. 
+- In 1985 Symbolics Computer Corp. becomes the first registered domain name. 
+- In 1989 Sir Tim Berners-Lee, invents the world wide web, 1 year after he then creates three technologies still used today: HyperText Markup Language (HTML), Uniform Resource Identifier (URI, more commonly known as URL) and Hypertext Transfer Protocol (HTTP). 
+- In 1994 Microsoft developes windows 95 a consumer-oriented operating system. 
+- 1995 Big marketplaces such as Amazon and Ebay, begin creating more appeal to be on the web. 
+- 1998 is when web publishing tools became available, this started off a popularity of writing blogs and allowing people more of a chance to connect on the web. 
+- Advertisements then started popping up and gaining traction in the early 2000's. 2004 - 2006 is when facebook, youtube and twitter get started, this invites everyday people to become part of the web and interact with each other in an easier way. Soon after many popular social medias etc. started, creating a must for people everywhere to be included and connected with each other. 
 
 
-### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
 
 Every web server(such as computer) has a IP (Internet Protocal) address (a virtual address made of numbers). When we enter a URL (Uniform Resource Locator) into a web browser on our web server, the web browser looks for that URL in a DNS (Domain Name Server) which contains a list of URLs and their corresponding IP addresses. 
 To break it down a bit the first part of a URL is called a protocol (usually http/s). This is a set method for exchanging/transferring data around a computer network. The second part of a URL is the domain name (www.domain.com). This is providing the DNS which web server is being requested, so we dont have to type in an IP address. You can use a search engine (like google) and only write the domain name in which is much easier to remember than an IP address. 
 
-### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today 
 
 DNS (Domain Name Server) was created by Paul Mockapetric, in 1983. DNS was originally used to support email communications but is now an extremely helpful tool in today's world all around. We no longer have to remember each IP address for websites we want to visit. We only need to remember a (usually) short domain address, as DNS contains URLs and their corresponding IP addresses. This makes internet surfing, accessing different resources and communication, quick, efficient and almost effortless. 
