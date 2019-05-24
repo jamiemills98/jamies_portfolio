@@ -10,20 +10,32 @@ ________________________________________________________________________________
 
 ### Purpose
 
-The purpose of this website is to present my portfolio to potential employers.
+The purpose of this website is to present my portfolio to potential employers, while incorporating my personality, current and previous work/experience so potential employers can get to know me on a faster and more efficient level. 
 
 ### Functionality / features
+- My portfolio starts on the home page, it then has a fixed nav bar on every page so you can easily move through my about, history and project pages as well as easily getting back to the home page. 
+- CSS flexbox is used as the foundation of the layout on each page.
+
+##### My portfolio can viewed on most devices, I have used the following measurements to make this possible
+1. max-width: 450px
+2. min-width: 451px, max-width: 960px
+3. min-width: 961px
 
 ### Sitemap
+
+![sitemap-sitemap](docs/sitemap.png "portfolio-sitemap") 
 
 ### Screenshots
 
 ### Target audience
 
-My target audience is potential future employers. 
+My target audience is potential future employers. I also want to reach fellow developers so that we can exchange ideas and learn from each other. 
 
 ### Tech stack (e.g. HTML, CSS etc)
-HTMl and CSS
+HTMl 
+SASS (CSS)
+Google fonts 
+flaticon
 Deployed on Github
 
 ## Design
@@ -44,11 +56,11 @@ and
 
 https://codepen.io/hrtzt/pen/NPZKRN (Alberto Hartzet)
 
-Matthew started me off with the idea of a space theme (inspired by his animated background), this slowly moved into the sunset theme after making my moodboard and realizing the colors I chose resembled a sunset more than space. 
+- Matthew started me off with the idea of a space theme (inspired by his animated background), this slowly moved into the sunset theme after making my moodboard and realizing the colors I chose resembled a sunset more than space. 
 
-I was then inspired to change my nav bar after starting. I changed it to be a side nav bar rather than across the page under the header after seeing Alberto's Nav bar example. This made it look neater and easier to use. I also made it fixed so the user of my website can easily navigate while looking through the pages. 
+- I was then inspired to change my nav bar after starting. I changed it to be a side nav bar rather than across the page under the header after seeing Alberto's Nav bar example. This made it look neater and easier to use. I also made it fixed so the user of my website can easily navigate while looking through the pages. 
 
-I choose my background to imitate a pastel sunset. My text colours were left black and white depending on background so it is easier to read and nice to look at (too many colours could overwhelm the user). My text fonts are in the sans serif family as they are easy to read. I also chose to have a slightly lighter background on my header/titles to seperate it from the background.
+I chose my background to imitate a pastel sunset. My text colours were left black and white depending on background so it is easier to read and nice to look at (too many colours could overwhelm the user). My text fonts are in the sans serif family as they are easy to read. I also chose to have a slightly lighter background on my header/titles to seperate it from the main background.
 
 Moodboard: 
 
@@ -89,30 +101,47 @@ Moodboard:
 
 
 
-### Personal logo (optional)
+<!-- ### Personal logo (optional) -->
 
 ### Usability considerations
 
+My usability considerations included:
+- Easy to read font styles and sizes
+- Easy to read font colours depending on background
+- Slight colour change on background colour of headers to make them more clear
+- alt tags on images
+I also used a colour Contrast checker (the add-on suggested by Jordan in accessability lesson) (see screenshot below)
+
+![usability-colour](docs/colour_contrast.png "portfolio-colour") 
+
+I then ran my website through lighthouse to check my audits(see screenshots). All of my pages recieved a good score (although accessability can always be improved) except for my projects page, the main problem for this is that I used a gif instead of a video which could be a future enhancement.
+
+![usability-audit](docs/audit.png "portfolio-audit") 
 
 ## Planning
 
 ### Project plan & timeline
-(portfolio plan coggle)
-Moodboards, wireframes and trello were also used in my project planning.
+#### Planning timeline
+![planning-timeline](docs/portfolio_plan.png "portfolio-timeline") 
+
+- Moodboards, wireframes and trello were also used in my project planning.
 
 ### Trello
 ####Trello boards
-![design-trello1](docs/trello1.png "portfolio-trello1") 
-![design-trello2](docs/trello2.png "portfolio-trello2") 
-![design-trello3](docs/trello3.png "portfolio-trello3") 
-![design-trello4](docs/trello4.png "portfolio-trello4") 
-![design-trello5](docs/trello5.png "portfolio-trello5") 
-![design-trello6](docs/trello6.png "portfolio-trello6") 
+![planning-trello1](docs/trello1.png "portfolio-trello1") 
+![planning-trello2](docs/trello2.png "portfolio-trello2") 
+![planning-trello3](docs/trello3.png "portfolio-trello3") 
+![planning-trello4](docs/trello4.png "portfolio-trello4") 
+![planning-trello5](docs/trello5.png "portfolio-trello5") 
+![planning-trello6](docs/trello6.png "portfolio-trello6") 
 
 ## Questions (Short Answers)
 
 ### Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
 ### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+Every web server(such as computer) has a IP (Internet Protocal) address (a virtual address made of numbers). When we enter a URL (Uniform Resource Locator) into a web browser on our web server, the web browser looks for that URL in a DNS (Domain Name Server) which contains a list of URLs and their corresponding IP addresses. 
+To break it down a bit the first part of a URL is called a protocol (usually http/s). This is a set method for exchanging/transferring data around a computer network. The second part of a URL is the domain name (www.domain.com). This is providing the DNS which web server is being requested, so we dont have to type in an IP address. You can use a search engine (like google) and only write the domain name in which is much easier to remember than an ip address. 
 
 ### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
