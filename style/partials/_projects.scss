@@ -9,6 +9,9 @@
     position: relative;
     margin: 0 auto;
     flex-direction: row;
+    video {
+        border-bottom: 1px dashed white;
+    }
     img {
         border-bottom: 1px dashed white;
         }
@@ -27,6 +30,11 @@
         top: 40px;
         width: 260px;
         left: 32px;
+        video {
+            height: 200px;
+            width: 180px;
+            padding: 10px 40px;
+        }
         img {
             height: 200px;
             width: 180px;
@@ -51,6 +59,12 @@
         width: 600px;
         left: 60px;
         top: 120px;
+        video {
+            height: 200px;
+            width: 180px;
+            padding: 10px 210px;
+            justify-content: center;
+        }
         img {
             height: 200px;
             width: 180px;
@@ -71,6 +85,11 @@
         width: 900px;
         left: 10px;
         top: 120px;
+        video {
+            height: 400px;
+            width: 380px;
+            padding: 5px 260px;
+        }
         img {
             height: 400px;
             width: 380px;
