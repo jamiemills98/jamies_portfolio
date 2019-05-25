@@ -27,10 +27,10 @@ The purpose of this website is to present my portfolio to potential employers, w
 
 ### Screenshots
 #### Mobile
-![mobile-screenshot1](docs/mob_home.png "portfolio-screenshots") 
-![mobile-screenshot2](docs/mob_about.png "portfolio-screenshots") 
-![mobile-screenshot3](docs/mob_project.png "portfolio-screenshots") 
-![mobile-screenshot4](docs/mob_history.png "portfolio-screenshots") 
+![mobile-screenshot1](docs/mob_home.PNG "portfolio-screenshots") 
+![mobile-screenshot2](docs/mob_about.PNG "portfolio-screenshots") 
+![mobile-screenshot3](docs/mob_project.PNG "portfolio-screenshots") 
+![mobile-screenshot4](docs/mob_history.PNG "portfolio-screenshots") 
 
 #### Tablet
 ![tablet-screenshot1](docs/tab_home.png "portfolio-screenshots") 
